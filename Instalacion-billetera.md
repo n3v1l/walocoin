@@ -33,9 +33,17 @@ apt-get update
 ```
 
 2. Instalar librerias necesarias para compilar y/o ejecutar
+
+###Librerias Ubuntu 18.04
 ```bash
 apt-get -y install ccache git libboost-system1.65.1 libboost-filesystem1.65.1 libboost-program-options1.65.1 libboost-thread1.65.1 libboost-chrono1.65.1 libssl1.0.0 libevent-pthreads-2.1-6 libevent-2.1-6 build-essential libtool autotool$```
 ```
+
+###Librerias Kali RR
+```bash
+apt -y install ccache git libboost-system1.71.0 libboost-filesystem1.71.0 libboost-program-options1.71.0 libboost-thread1.71.0 libboost-chrono1.71.0 libssl1.0.2 libevent-pthreads-2.1-7 libevent-2.1-7 build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev
+```
+
 
 3. Descargar el tar con el código fuente cualquiera de las dos opciones son validas
 
