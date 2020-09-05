@@ -62,7 +62,6 @@ make
 sudo make install
 sudo echo "LD_LIBRARY_PATH=/usr/local/lib" | sudo tee /etc/profile.d/walocoin.sh
 sudo echo "export LD_LIBRARY_PATH" | sudo tee -a /etc/profile.d/walocoin.sh
-sudo Environment=LD_LIBRARY_PATH=/usr/local/lib
 ```
 Hay que loguearse de nuevo para que tome la configuración de las librerías.
 
@@ -141,6 +140,7 @@ KillMode=process
 Restart=always
 TimeoutSec=120
 RestartSec=30
+Environment=LD_LIBRARY_PATH=/usr/local/lib #Solo si es Centos 8 - remover para otros
 
 [Install]
 WantedBy=multi-user.target
