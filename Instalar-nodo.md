@@ -29,7 +29,7 @@ git clone https://github.com/n3v1l/walocoin.git
 
 #### Opción Código Fuente en Release
 ```bash
-wget https://github.com/n3v1l/walocoin/releases/walocoin-0.18.1.tar.gz
+wget https://github.com/n3v1l/walocoin/releases/download/0.18.1/walocoin-0.18.1.tar.gz
 tar xvf walocoin-0.18.1.tar.gz
 ```
    
