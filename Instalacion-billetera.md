@@ -35,6 +35,7 @@ apt-get update
 2. Instalar librerias necesarias para compilar y/o ejecutar
 ```bash
 apt-get -y install ccache git libboost-system1.65.1 libboost-filesystem1.65.1 libboost-program-options1.65.1 libboost-thread1.65.1 libboost-chrono1.65.1 libssl1.0.0 libevent-pthreads-2.1-6 libevent-2.1-6 build-essential libtool autotool$```
+```
 
 3. Descargar el tar con el código fuente cualquiera de las dos opciones son validas
 
