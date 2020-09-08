@@ -24,13 +24,13 @@
 #define CLIENT_VERSION_MINOR 18
 
 /* Build revision */
-#define CLIENT_VERSION_REVISION 1
+#define CLIENT_VERSION_REVISION 2
 
 /* Copyright holder(s) before %s replacement */
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The WaloCoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The WaloCoin Core Forker by n3v1l"
 
 /* Replacement for %s in copyright holders string */
 #define COPYRIGHT_HOLDERS_SUBSTITUTION "WaloCoin Core"
