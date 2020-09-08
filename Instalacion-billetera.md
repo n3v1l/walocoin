@@ -2,7 +2,7 @@
 
 ## Windows 
 
-1. Descargar el [Instalador de Walocoin](https://github.com/n3v1l/walocoin/releases/download/0.18.1/walocoin-0.18.1-win64-setup.exe)
+1. Descargar el [Instalador de Walocoin](https://github.com/n3v1l/walocoin/releases/download/0.18.2/walocoin-0.18.2-win64-setup.exe)
 
 2. Ejecutarlo para instalarlo, dejar todo por defecto.
 
@@ -55,13 +55,13 @@ git clone https://github.com/n3v1l/walocoin.git
 
 #### Opción Código Fuente en Release
 ```bash
-wget https://github.com/n3v1l/walocoin/releases/download/0.18.1/walocoin-0.18.1.tar.gz
-tar xvf walocoin-0.18.1.tar.gz
+wget https://github.com/n3v1l/walocoin/releases/download/0.18.2/walocoin-0.18.2.tar.gz
+tar xvf walocoin-0.18.2.tar.gz
 ```
 
 4. Compilado
 ```bash
-cd walocoin-0.18.1
+cd walocoin-0.18.2
 ./autogen.sh
 ./configure --disable-tests --disable-bench
 make -j$n  (donde $n es la cantidad de hilos con los que vas a compilar)
@@ -85,7 +85,7 @@ Esperar a que se ejecute y luego cerrarlo.
 cd /home/usuario/.walocoin
 ```
 
-8. Copiar desde walocoin-0.18.1/config/walocoin.conf a la carpeta .walocoin
+8. Copiar desde walocoin-0.18.2/config/walocoin.conf a la carpeta .walocoin
 
 9. Ejecutar la billetera de nuevo, ahora se sincronizará.
 

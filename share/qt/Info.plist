@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>0.18.1.0, Copyright © 2009-2020 The WaloCoin Core developers</string>
+  <string>0.18.2.0, Copyright © 2009-2020 The WaloCoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>0.18.1</string>

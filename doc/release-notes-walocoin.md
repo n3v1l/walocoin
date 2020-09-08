@@ -1,6 +1,6 @@
-WaloCoin Core version 0.18.1 is now available from:
+WaloCoin Core version 0.18.2 is now available from:
 
-  <https://download.walocoin.org/walocoin-0.18.1/>
+  <https://download.walocoin.org/walocoin-0.18.2/>
 
 This is a major version release, including new features, various bug
 fixes and performance improvements, as well as updated translations.
@@ -518,7 +518,7 @@ Changes for particular platforms
   long time because the operating system is attempting to conserve
   power.
 
-0.18.1 change log
+0.18.2 change log
 =================
 
 ### Consensus
