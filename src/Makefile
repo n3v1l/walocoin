@@ -149,68 +149,68 @@ am__append_22 = -DLEVELDB_PLATFORM_POSIX
 am__append_24 = leveldb/port/port_posix.cc
 am__append_25 = -DLEVELDB_PLATFORM_POSIX_SSE
 am__append_26 = $(SSE42_CXXFLAGS)
-#am__append_27 = $(FUZZ_TARGETS:=)
-am__append_28 = test/test_walocoin
-#am__append_29 = \
-#  test/key_properties.cpp
+##am__append_27 = $(FUZZ_TARGETS:=)
+#am__append_28 = test/test_walocoin
+##am__append_29 = \
+##  test/key_properties.cpp
 
-#am__append_30 = \
-#  test/gen/crypto_gen.cpp \
-#  test/gen/crypto_gen.h
+##am__append_30 = \
+##  test/gen/crypto_gen.cpp \
+##  test/gen/crypto_gen.h
 
-am__append_31 = \
-  wallet/test/db_tests.cpp \
-  wallet/test/psbt_wallet_tests.cpp \
-  wallet/test/wallet_tests.cpp \
-  wallet/test/wallet_crypto_tests.cpp \
-  wallet/test/coinselector_tests.cpp \
-  wallet/test/init_tests.cpp
+#am__append_31 = \
+#  wallet/test/db_tests.cpp \
+#  wallet/test/psbt_wallet_tests.cpp \
+#  wallet/test/wallet_tests.cpp \
+#  wallet/test/wallet_crypto_tests.cpp \
+#  wallet/test/coinselector_tests.cpp \
+#  wallet/test/init_tests.cpp
 
-am__append_32 = \
-  wallet/test/wallet_test_fixture.cpp \
-  wallet/test/wallet_test_fixture.h \
-  wallet/test/init_test_fixture.cpp \
-  wallet/test/init_test_fixture.h
+#am__append_32 = \
+#  wallet/test/wallet_test_fixture.cpp \
+#  wallet/test/wallet_test_fixture.h \
+#  wallet/test/init_test_fixture.cpp \
+#  wallet/test/init_test_fixture.h
 
-am__append_33 = $(LIBBITCOIN_WALLET)
-am__append_34 = $(ZMQ_LIBS)
-am__append_35 = $(CLEAN_BITCOIN_TEST)
+#am__append_33 = $(LIBBITCOIN_WALLET)
+#am__append_34 = $(ZMQ_LIBS)
+#am__append_35 = $(CLEAN_BITCOIN_TEST)
 #am__append_36 = bench/bench_walocoin
 #am__append_37 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 #am__append_38 = bench/coin_selection.cpp
 #am__append_39 = $(CLEAN_BITCOIN_BENCH)
-am__append_40 = qt/walocoin-qt
-am__append_41 = qt/libbitcoinqt.a
-#am__append_42 = $(BITCOIN_QT_WINDOWS_CPP)
-am__append_43 = $(BITCOIN_QT_WALLET_CPP)
-am__append_44 = $(BITCOIN_QT_WALLET_BIP70_CPP)
-#am__append_45 = $(BITCOIN_MM)
-#am__append_46 = $(BITCOIN_RC)
-am__append_47 = $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
-am__append_48 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
-am__append_49 = $(SSL_LIBS)
+#am__append_40 = qt/walocoin-qt
+#am__append_41 = qt/libbitcoinqt.a
+##am__append_42 = $(BITCOIN_QT_WINDOWS_CPP)
+#am__append_43 = $(BITCOIN_QT_WALLET_CPP)
+##am__append_44 = $(BITCOIN_QT_WALLET_BIP70_CPP)
+##am__append_45 = $(BITCOIN_MM)
+##am__append_46 = $(BITCOIN_RC)
+#am__append_47 = $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
+#am__append_48 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+##am__append_49 = $(SSL_LIBS)
 ##am__append_50 = $(SSL_LIBS)
-am__append_51 = $(CLEAN_QT)
-am__append_52 = qt/test/test_walocoin-qt
-am__append_53 = qt/test/test_walocoin-qt
-am__append_54 = \
-  qt/test/moc_addressbooktests.cpp \
-  qt/test/moc_wallettests.cpp
+#am__append_51 = $(CLEAN_QT)
+#am__append_52 = qt/test/test_walocoin-qt
+#am__append_53 = qt/test/test_walocoin-qt
+#am__append_54 = \
+#  qt/test/moc_addressbooktests.cpp \
+#  qt/test/moc_wallettests.cpp
 
-am__append_55 = \
-  qt/test/moc_paymentservertests.cpp
+##am__append_55 = \
+##  qt/test/moc_paymentservertests.cpp
 
-am__append_56 = \
-  qt/test/addressbooktests.cpp \
-  qt/test/wallettests.cpp \
-  wallet/test/wallet_test_fixture.cpp
+#am__append_56 = \
+#  qt/test/addressbooktests.cpp \
+#  qt/test/wallettests.cpp \
+#  wallet/test/wallet_test_fixture.cpp
 
-am__append_57 = \
-  qt/test/paymentservertests.cpp
+##am__append_57 = \
+##  qt/test/paymentservertests.cpp
 
-am__append_58 = $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
-am__append_59 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
-am__append_60 = $(CLEAN_BITCOIN_QT_TEST)
+#am__append_58 = $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
+#am__append_59 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_60 = $(CLEAN_BITCOIN_QT_TEST)
 subdir = src
 SUBDIRS =
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -805,130 +805,130 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	$(srcdir)/qt/res/movies/spinner-*.png) \
 	qt/macdockiconhandler.mm qt/macnotificationhandler.mm \
 	qt/macos_appnap.mm
-am__objects_7 =  \
-	qt/qt_libbitcoinqt_a-bantablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-bitcoin.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-bitcoinaddressvalidator.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-bitcoinamountfield.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-bitcoingui.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-bitcoinunits.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-clientmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-csvmodelwriter.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-guiutil.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-intro.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-modaloverlay.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-networkstyle.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-notificator.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-optionsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-optionsmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-peertablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-platformstyle.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-qvalidatedlineedit.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-qvaluecombobox.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-rpcconsole.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-splashscreen.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-trafficgraphwidget.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-utilitydialog.$(OBJEXT)
-am__objects_8 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
-#am__objects_9 = $(am__objects_8)
-am__objects_10 = qt/qt_libbitcoinqt_a-addressbookpage.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-addresstablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-askpassphrasedialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-coincontroldialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-coincontroltreewidget.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-editaddressdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-openuridialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-overviewpage.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-paymentserver.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-receivecoinsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-receiverequestdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-recentrequeststablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-sendcoinsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-sendcoinsentry.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-signverifymessagedialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactiondesc.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactiondescdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactionfilterproxy.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactionrecord.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactiontablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-transactionview.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-walletcontroller.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-walletframe.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-walletmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-walletmodeltransaction.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-walletview.$(OBJEXT)
-am__objects_11 =  \
-	$(am__objects_10)
-am__objects_12 = qt/qt_libbitcoinqt_a-paymentrequestplus.$(OBJEXT)
-am__objects_13 = $(am__objects_12)
-am__objects_14 = $(am__objects_7) $(am__objects_9) \
-	$(am__objects_11) $(am__objects_13)
-am__objects_15 = qt/qt_libbitcoinqt_a-macdockiconhandler.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-macnotificationhandler.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-macos_appnap.$(OBJEXT)
-#am__objects_16 =  \
-#	$(am__objects_15)
-am_qt_libbitcoinqt_a_OBJECTS = $(am__objects_14) \
-	$(am__objects_4) $(am__objects_4) \
-	$(am__objects_4) $(am__objects_4) \
-	$(am__objects_4) $(am__objects_4) \
-	$(am__objects_4) $(am__objects_4) \
-	$(am__objects_4) $(am__objects_16)
-am__objects_17 = qt/qt_libbitcoinqt_a-moc_addressbookpage.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_addresstablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_askpassphrasedialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bantablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bitcoinamountfield.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bitcoin.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bitcoingui.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_bitcoinunits.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_clientmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_coincontroldialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_coincontroltreewidget.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_csvmodelwriter.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_editaddressdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_guiutil.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_intro.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_macdockiconhandler.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_macnotificationhandler.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_modaloverlay.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_notificator.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_openuridialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_optionsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_optionsmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_overviewpage.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_peertablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_paymentserver.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_qvalidatedlineedit.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_qvaluecombobox.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_receivecoinsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_receiverequestdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_recentrequeststablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_rpcconsole.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_sendcoinsdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_sendcoinsentry.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_signverifymessagedialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_splashscreen.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_trafficgraphwidget.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_transactiondesc.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_transactiondescdialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_transactionfilterproxy.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_transactiontablemodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_transactionview.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_utilitydialog.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_walletcontroller.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_walletframe.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_walletmodel.$(OBJEXT) \
-	qt/qt_libbitcoinqt_a-moc_walletview.$(OBJEXT)
-am__objects_18 = qt/qt_libbitcoinqt_a-paymentrequest.pb.$(OBJEXT)
-am__objects_19 =  \
-	qt/qt_libbitcoinqt_a-qrc_bitcoin.$(OBJEXT)
-am__objects_20 = qt/qt_libbitcoinqt_a-qrc_bitcoin_locale.$(OBJEXT)
-nodist_qt_libbitcoinqt_a_OBJECTS = $(am__objects_17) \
-	$(am__objects_4) $(am__objects_18) \
-	$(am__objects_4) $(am__objects_19) \
-	$(am__objects_20)
+#am__objects_7 =  \
+#	qt/qt_libbitcoinqt_a-bantablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-bitcoin.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-bitcoinaddressvalidator.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-bitcoinamountfield.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-bitcoingui.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-bitcoinunits.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-clientmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-csvmodelwriter.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-guiutil.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-intro.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-modaloverlay.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-networkstyle.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-notificator.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-optionsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-optionsmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-peertablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-platformstyle.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-qvalidatedlineedit.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-qvaluecombobox.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-rpcconsole.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-splashscreen.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-trafficgraphwidget.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-utilitydialog.$(OBJEXT)
+#am__objects_8 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
+##am__objects_9 = $(am__objects_8)
+#am__objects_10 = qt/qt_libbitcoinqt_a-addressbookpage.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-addresstablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-askpassphrasedialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-coincontroldialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-coincontroltreewidget.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-editaddressdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-openuridialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-overviewpage.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-paymentserver.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-receivecoinsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-receiverequestdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-recentrequeststablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-sendcoinsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-sendcoinsentry.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-signverifymessagedialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactiondesc.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactiondescdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactionfilterproxy.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactionrecord.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactiontablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-transactionview.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-walletcontroller.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-walletframe.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-walletmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-walletmodeltransaction.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-walletview.$(OBJEXT)
+#am__objects_11 =  \
+#	$(am__objects_10)
+#am__objects_12 = qt/qt_libbitcoinqt_a-paymentrequestplus.$(OBJEXT)
+##am__objects_13 = $(am__objects_12)
+#am__objects_14 = $(am__objects_7) $(am__objects_9) \
+#	$(am__objects_11) $(am__objects_13)
+#am__objects_15 = qt/qt_libbitcoinqt_a-macdockiconhandler.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-macnotificationhandler.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-macos_appnap.$(OBJEXT)
+##am__objects_16 =  \
+##	$(am__objects_15)
+#am_qt_libbitcoinqt_a_OBJECTS = $(am__objects_14) \
+#	$(am__objects_4) $(am__objects_4) \
+#	$(am__objects_4) $(am__objects_4) \
+#	$(am__objects_4) $(am__objects_4) \
+#	$(am__objects_4) $(am__objects_4) \
+#	$(am__objects_4) $(am__objects_16)
+#am__objects_17 = qt/qt_libbitcoinqt_a-moc_addressbookpage.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_addresstablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_askpassphrasedialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bantablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bitcoinaddressvalidator.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bitcoinamountfield.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bitcoin.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bitcoingui.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_bitcoinunits.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_clientmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_coincontroldialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_coincontroltreewidget.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_csvmodelwriter.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_editaddressdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_guiutil.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_intro.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_macdockiconhandler.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_macnotificationhandler.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_modaloverlay.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_notificator.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_openuridialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_optionsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_optionsmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_overviewpage.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_peertablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_paymentserver.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_qvalidatedlineedit.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_qvaluecombobox.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_receivecoinsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_receiverequestdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_recentrequeststablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_rpcconsole.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_sendcoinsdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_sendcoinsentry.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_signverifymessagedialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_splashscreen.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_trafficgraphwidget.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_transactiondesc.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_transactiondescdialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_transactionfilterproxy.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_transactiontablemodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_transactionview.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_utilitydialog.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_walletcontroller.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_walletframe.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_walletmodel.$(OBJEXT) \
+#	qt/qt_libbitcoinqt_a-moc_walletview.$(OBJEXT)
+##am__objects_18 = qt/qt_libbitcoinqt_a-paymentrequest.pb.$(OBJEXT)
+#am__objects_19 =  \
+#	qt/qt_libbitcoinqt_a-qrc_bitcoin.$(OBJEXT)
+#am__objects_20 = qt/qt_libbitcoinqt_a-qrc_bitcoin_locale.$(OBJEXT)
+#nodist_qt_libbitcoinqt_a_OBJECTS = $(am__objects_17) \
+#	$(am__objects_4) $(am__objects_18) \
+#	$(am__objects_4) $(am__objects_19) \
+#	$(am__objects_20)
 qt_libbitcoinqt_a_OBJECTS = $(am_qt_libbitcoinqt_a_OBJECTS) \
 	$(nodist_qt_libbitcoinqt_a_OBJECTS)
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
@@ -1028,34 +1028,34 @@ am__EXEEXT_1 = walocoind$(EXEEXT)
 am__EXEEXT_2 = walocoin-cli$(EXEEXT)
 am__EXEEXT_3 = walocoin-tx$(EXEEXT)
 am__EXEEXT_4 = walocoin-wallet$(EXEEXT)
-am__EXEEXT_5 = test/test_walocoin$(EXEEXT)
+#am__EXEEXT_5 = test/test_walocoin$(EXEEXT)
 #am__EXEEXT_6 = bench/bench_walocoin$(EXEEXT)
-am__EXEEXT_7 = qt/walocoin-qt$(EXEEXT)
-am__EXEEXT_8 =  \
-	qt/test/test_walocoin-qt$(EXEEXT)
-am__EXEEXT_9 =  \
-	test/fuzz/address_deserialize$(EXEEXT) \
-	test/fuzz/addrman_deserialize$(EXEEXT) \
-	test/fuzz/banentry_deserialize$(EXEEXT) \
-	test/fuzz/block_deserialize$(EXEEXT) \
-	test/fuzz/blockheader_deserialize$(EXEEXT) \
-	test/fuzz/blocklocator_deserialize$(EXEEXT) \
-	test/fuzz/blockmerkleroot$(EXEEXT) \
-	test/fuzz/blocktransactions_deserialize$(EXEEXT) \
-	test/fuzz/blocktransactionsrequest_deserialize$(EXEEXT) \
-	test/fuzz/blockundo_deserialize$(EXEEXT) \
-	test/fuzz/bloomfilter_deserialize$(EXEEXT) \
-	test/fuzz/coins_deserialize$(EXEEXT) \
-	test/fuzz/diskblockindex_deserialize$(EXEEXT) \
-	test/fuzz/inv_deserialize$(EXEEXT) \
-	test/fuzz/messageheader_deserialize$(EXEEXT) \
-	test/fuzz/netaddr_deserialize$(EXEEXT) \
-	test/fuzz/script_flags$(EXEEXT) \
-	test/fuzz/service_deserialize$(EXEEXT) \
-	test/fuzz/transaction_deserialize$(EXEEXT) \
-	test/fuzz/txoutcompressor_deserialize$(EXEEXT) \
-	test/fuzz/txundo_deserialize$(EXEEXT)
-#am__EXEEXT_10 = $(am__EXEEXT_9)
+#am__EXEEXT_7 = qt/walocoin-qt$(EXEEXT)
+#am__EXEEXT_8 =  \
+#	qt/test/test_walocoin-qt$(EXEEXT)
+#am__EXEEXT_9 =  \
+#	test/fuzz/address_deserialize$(EXEEXT) \
+#	test/fuzz/addrman_deserialize$(EXEEXT) \
+#	test/fuzz/banentry_deserialize$(EXEEXT) \
+#	test/fuzz/block_deserialize$(EXEEXT) \
+#	test/fuzz/blockheader_deserialize$(EXEEXT) \
+#	test/fuzz/blocklocator_deserialize$(EXEEXT) \
+#	test/fuzz/blockmerkleroot$(EXEEXT) \
+#	test/fuzz/blocktransactions_deserialize$(EXEEXT) \
+#	test/fuzz/blocktransactionsrequest_deserialize$(EXEEXT) \
+#	test/fuzz/blockundo_deserialize$(EXEEXT) \
+#	test/fuzz/bloomfilter_deserialize$(EXEEXT) \
+#	test/fuzz/coins_deserialize$(EXEEXT) \
+#	test/fuzz/diskblockindex_deserialize$(EXEEXT) \
+#	test/fuzz/inv_deserialize$(EXEEXT) \
+#	test/fuzz/messageheader_deserialize$(EXEEXT) \
+#	test/fuzz/netaddr_deserialize$(EXEEXT) \
+#	test/fuzz/script_flags$(EXEEXT) \
+#	test/fuzz/service_deserialize$(EXEEXT) \
+#	test/fuzz/transaction_deserialize$(EXEEXT) \
+#	test/fuzz/txoutcompressor_deserialize$(EXEEXT) \
+#	test/fuzz/txundo_deserialize$(EXEEXT)
+##am__EXEEXT_10 = $(am__EXEEXT_9)
 PROGRAMS = $(bin_PROGRAMS) $(noinst_PROGRAMS)
 am__bench_bench_walocoin_SOURCES_DIST = bench/data/block413567.raw \
 	bench/bench_bitcoin.cpp bench/bench.cpp bench/bench.h \
@@ -1125,216 +1125,216 @@ am__qt_test_test_walocoin_qt_SOURCES_DIST = qt/test/apptests.cpp \
 	qt/test/addressbooktests.cpp qt/test/wallettests.cpp \
 	wallet/test/wallet_test_fixture.cpp \
 	qt/test/paymentservertests.cpp
-am__objects_27 = test/qt_test_test_walocoin_qt-test_bitcoin.$(OBJEXT)
-am__objects_28 = qt/test/qt_test_test_walocoin_qt-addressbooktests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-wallettests.$(OBJEXT) \
-	wallet/test/qt_test_test_walocoin_qt-wallet_test_fixture.$(OBJEXT)
-am__objects_29 = qt/test/qt_test_test_walocoin_qt-paymentservertests.$(OBJEXT)
-am_qt_test_test_walocoin_qt_OBJECTS = qt/test/qt_test_test_walocoin_qt-apptests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-compattests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-rpcnestedtests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-test_main.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-uritests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-util.$(OBJEXT) \
-	$(am__objects_4) $(am__objects_27) \
-	$(am__objects_4) $(am__objects_28) \
-	$(am__objects_29)
-am__objects_30 = qt/test/qt_test_test_walocoin_qt-moc_addressbooktests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-moc_wallettests.$(OBJEXT)
-am__objects_31 = qt/test/qt_test_test_walocoin_qt-moc_paymentservertests.$(OBJEXT)
-am__objects_32 = qt/test/qt_test_test_walocoin_qt-moc_apptests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-moc_compattests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-moc_rpcnestedtests.$(OBJEXT) \
-	qt/test/qt_test_test_walocoin_qt-moc_uritests.$(OBJEXT) \
-	$(am__objects_30) $(am__objects_31)
-nodist_qt_test_test_walocoin_qt_OBJECTS =  \
-	$(am__objects_32)
+#am__objects_27 = test/qt_test_test_walocoin_qt-test_bitcoin.$(OBJEXT)
+#am__objects_28 = qt/test/qt_test_test_walocoin_qt-addressbooktests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-wallettests.$(OBJEXT) \
+#	wallet/test/qt_test_test_walocoin_qt-wallet_test_fixture.$(OBJEXT)
+##am__objects_29 = qt/test/qt_test_test_walocoin_qt-paymentservertests.$(OBJEXT)
+#am_qt_test_test_walocoin_qt_OBJECTS = qt/test/qt_test_test_walocoin_qt-apptests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-compattests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-rpcnestedtests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-test_main.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-uritests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-util.$(OBJEXT) \
+#	$(am__objects_4) $(am__objects_27) \
+#	$(am__objects_4) $(am__objects_28) \
+#	$(am__objects_29)
+#am__objects_30 = qt/test/qt_test_test_walocoin_qt-moc_addressbooktests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-moc_wallettests.$(OBJEXT)
+##am__objects_31 = qt/test/qt_test_test_walocoin_qt-moc_paymentservertests.$(OBJEXT)
+#am__objects_32 = qt/test/qt_test_test_walocoin_qt-moc_apptests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-moc_compattests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-moc_rpcnestedtests.$(OBJEXT) \
+#	qt/test/qt_test_test_walocoin_qt-moc_uritests.$(OBJEXT) \
+#	$(am__objects_30) $(am__objects_31)
+#nodist_qt_test_test_walocoin_qt_OBJECTS =  \
+#	$(am__objects_32)
 qt_test_test_walocoin_qt_OBJECTS =  \
 	$(am_qt_test_test_walocoin_qt_OBJECTS) \
 	$(nodist_qt_test_test_walocoin_qt_OBJECTS)
-am__DEPENDENCIES_6 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_1)
-qt_test_test_walocoin_qt_DEPENDENCIES =  \
-	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
-	$(am__append_58) $(am__DEPENDENCIES_6) \
-	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
-	$(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) \
-	$(LIBBITCOIN_CRYPTO) \
-	$(am__DEPENDENCIES_4) \
-	$(am__DEPENDENCIES_2) \
-	$(LIBLEVELDB_SSE42) \
-	$(am__DEPENDENCIES_3) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
-	$(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_6 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
+#qt_test_test_walocoin_qt_DEPENDENCIES =  \
+#	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
+#	$(am__append_58) $(am__DEPENDENCIES_6) \
+#	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
+#	$(LIBBITCOIN_UTIL) \
+#	$(LIBBITCOIN_CONSENSUS) \
+#	$(LIBBITCOIN_CRYPTO) \
+#	$(am__DEPENDENCIES_4) \
+#	$(am__DEPENDENCIES_2) \
+#	$(LIBLEVELDB_SSE42) \
+#	$(am__DEPENDENCIES_3) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
+#	$(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1)
 qt_test_test_walocoin_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(qt_test_test_walocoin_qt_CXXFLAGS) $(CXXFLAGS) \
 	$(qt_test_test_walocoin_qt_LDFLAGS) $(LDFLAGS) -o $@
 am__qt_walocoin_qt_SOURCES_DIST = qt/main.cpp qt/res/bitcoin-qt-res.rc
-am__objects_33 = qt/res/bitcoin-qt-res.$(OBJEXT)
-#am__objects_34 =  \
-#	$(am__objects_33)
-am_qt_walocoin_qt_OBJECTS =  \
-	qt/qt_walocoin_qt-main.$(OBJEXT) \
-	$(am__objects_34)
+#am__objects_33 = qt/res/bitcoin-qt-res.$(OBJEXT)
+##am__objects_34 =  \
+##	$(am__objects_33)
+#am_qt_walocoin_qt_OBJECTS =  \
+#	qt/qt_walocoin_qt-main.$(OBJEXT) \
+#	$(am__objects_34)
 qt_walocoin_qt_OBJECTS = $(am_qt_walocoin_qt_OBJECTS)
-am__DEPENDENCIES_7 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_1)
-am__DEPENDENCIES_8 =  \
-	$(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_7 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
+##am__DEPENDENCIES_8 =  \
+##	$(am__DEPENDENCIES_1)
 ##am__DEPENDENCIES_9 = $(am__DEPENDENCIES_1)
-qt_walocoin_qt_DEPENDENCIES = qt/libbitcoinqt.a \
-	$(LIBBITCOIN_SERVER) $(am__append_47) \
-	$(am__DEPENDENCIES_7) $(LIBBITCOIN_CLI) \
-	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) $(LIBBITCOIN_CRYPTO) \
-	$(am__DEPENDENCIES_4) $(am__DEPENDENCIES_2) \
-	$(LIBLEVELDB_SSE42) $(am__DEPENDENCIES_3) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_8) $(am__DEPENDENCIES_9) \
-	$(am__DEPENDENCIES_1)
+#qt_walocoin_qt_DEPENDENCIES = qt/libbitcoinqt.a \
+#	$(LIBBITCOIN_SERVER) $(am__append_47) \
+#	$(am__DEPENDENCIES_7) $(LIBBITCOIN_CLI) \
+#	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+#	$(LIBBITCOIN_CONSENSUS) $(LIBBITCOIN_CRYPTO) \
+#	$(am__DEPENDENCIES_4) $(am__DEPENDENCIES_2) \
+#	$(LIBLEVELDB_SSE42) $(am__DEPENDENCIES_3) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_8) $(am__DEPENDENCIES_9) \
+#	$(am__DEPENDENCIES_1)
 qt_walocoin_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(qt_walocoin_qt_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(qt_walocoin_qt_CXXFLAGS) $(CXXFLAGS) \
 	$(qt_walocoin_qt_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_address_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_35 = test/fuzz/test_fuzz_address_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_address_deserialize_OBJECTS =  \
-#	$(am__objects_35) \
-#	test/fuzz/test_fuzz_address_deserialize-deserialize.$(OBJEXT)
+#am__objects_35 = test/fuzz/test_fuzz_address_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_address_deserialize_OBJECTS =  \
+##	$(am__objects_35) \
+##	test/fuzz/test_fuzz_address_deserialize-deserialize.$(OBJEXT)
 test_fuzz_address_deserialize_OBJECTS =  \
 	$(am_test_fuzz_address_deserialize_OBJECTS)
-#test_fuzz_address_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_address_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_address_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_address_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_address_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_addrman_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_36 = test/fuzz/test_fuzz_addrman_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_addrman_deserialize_OBJECTS =  \
-#	$(am__objects_36) \
-#	test/fuzz/test_fuzz_addrman_deserialize-deserialize.$(OBJEXT)
+#am__objects_36 = test/fuzz/test_fuzz_addrman_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_addrman_deserialize_OBJECTS =  \
+##	$(am__objects_36) \
+##	test/fuzz/test_fuzz_addrman_deserialize-deserialize.$(OBJEXT)
 test_fuzz_addrman_deserialize_OBJECTS =  \
 	$(am_test_fuzz_addrman_deserialize_OBJECTS)
-#test_fuzz_addrman_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_addrman_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_addrman_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_addrman_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_addrman_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_banentry_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_37 = test/fuzz/test_fuzz_banentry_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_banentry_deserialize_OBJECTS =  \
-#	$(am__objects_37) \
-#	test/fuzz/test_fuzz_banentry_deserialize-deserialize.$(OBJEXT)
+#am__objects_37 = test/fuzz/test_fuzz_banentry_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_banentry_deserialize_OBJECTS =  \
+##	$(am__objects_37) \
+##	test/fuzz/test_fuzz_banentry_deserialize-deserialize.$(OBJEXT)
 test_fuzz_banentry_deserialize_OBJECTS =  \
 	$(am_test_fuzz_banentry_deserialize_OBJECTS)
-#test_fuzz_banentry_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_banentry_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_banentry_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_banentry_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_banentry_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_block_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_38 = test/fuzz/test_fuzz_block_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_block_deserialize_OBJECTS =  \
-#	$(am__objects_38) \
-#	test/fuzz/test_fuzz_block_deserialize-deserialize.$(OBJEXT)
+#am__objects_38 = test/fuzz/test_fuzz_block_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_block_deserialize_OBJECTS =  \
+##	$(am__objects_38) \
+##	test/fuzz/test_fuzz_block_deserialize-deserialize.$(OBJEXT)
 test_fuzz_block_deserialize_OBJECTS =  \
 	$(am_test_fuzz_block_deserialize_OBJECTS)
-#test_fuzz_block_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_block_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_block_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_block_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_block_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_blockheader_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_39 = test/fuzz/test_fuzz_blockheader_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_blockheader_deserialize_OBJECTS =  \
-#	$(am__objects_39) \
-#	test/fuzz/test_fuzz_blockheader_deserialize-deserialize.$(OBJEXT)
+#am__objects_39 = test/fuzz/test_fuzz_blockheader_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_blockheader_deserialize_OBJECTS =  \
+##	$(am__objects_39) \
+##	test/fuzz/test_fuzz_blockheader_deserialize-deserialize.$(OBJEXT)
 test_fuzz_blockheader_deserialize_OBJECTS =  \
 	$(am_test_fuzz_blockheader_deserialize_OBJECTS)
-#test_fuzz_blockheader_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blockheader_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blockheader_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_blockheader_deserialize_CXXFLAGS) \
@@ -1342,25 +1342,25 @@ test_fuzz_blockheader_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_blocklocator_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_40 = test/fuzz/test_fuzz_blocklocator_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_blocklocator_deserialize_OBJECTS =  \
-#	$(am__objects_40) \
-#	test/fuzz/test_fuzz_blocklocator_deserialize-deserialize.$(OBJEXT)
+#am__objects_40 = test/fuzz/test_fuzz_blocklocator_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_blocklocator_deserialize_OBJECTS =  \
+##	$(am__objects_40) \
+##	test/fuzz/test_fuzz_blocklocator_deserialize-deserialize.$(OBJEXT)
 test_fuzz_blocklocator_deserialize_OBJECTS =  \
 	$(am_test_fuzz_blocklocator_deserialize_OBJECTS)
-#test_fuzz_blocklocator_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blocklocator_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blocklocator_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_blocklocator_deserialize_CXXFLAGS) \
@@ -1368,50 +1368,50 @@ test_fuzz_blocklocator_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_blockmerkleroot_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_41 = test/fuzz/test_fuzz_blockmerkleroot-fuzz.$(OBJEXT)
-#am_test_fuzz_blockmerkleroot_OBJECTS =  \
-#	$(am__objects_41) \
-#	test/fuzz/test_fuzz_blockmerkleroot-deserialize.$(OBJEXT)
+#am__objects_41 = test/fuzz/test_fuzz_blockmerkleroot-fuzz.$(OBJEXT)
+##am_test_fuzz_blockmerkleroot_OBJECTS =  \
+##	$(am__objects_41) \
+##	test/fuzz/test_fuzz_blockmerkleroot-deserialize.$(OBJEXT)
 test_fuzz_blockmerkleroot_OBJECTS =  \
 	$(am_test_fuzz_blockmerkleroot_OBJECTS)
-#test_fuzz_blockmerkleroot_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blockmerkleroot_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blockmerkleroot_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_blockmerkleroot_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_blockmerkleroot_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_blocktransactions_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_42 = test/fuzz/test_fuzz_blocktransactions_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_blocktransactions_deserialize_OBJECTS =  \
-#	$(am__objects_42) \
-#	test/fuzz/test_fuzz_blocktransactions_deserialize-deserialize.$(OBJEXT)
+#am__objects_42 = test/fuzz/test_fuzz_blocktransactions_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_blocktransactions_deserialize_OBJECTS =  \
+##	$(am__objects_42) \
+##	test/fuzz/test_fuzz_blocktransactions_deserialize-deserialize.$(OBJEXT)
 test_fuzz_blocktransactions_deserialize_OBJECTS =  \
 	$(am_test_fuzz_blocktransactions_deserialize_OBJECTS)
-#test_fuzz_blocktransactions_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blocktransactions_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blocktransactions_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_blocktransactions_deserialize_CXXFLAGS) \
@@ -1419,25 +1419,25 @@ test_fuzz_blocktransactions_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_blocktransactionsrequest_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_43 = test/fuzz/test_fuzz_blocktransactionsrequest_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_blocktransactionsrequest_deserialize_OBJECTS =  \
-#	$(am__objects_43) \
-#	test/fuzz/test_fuzz_blocktransactionsrequest_deserialize-deserialize.$(OBJEXT)
+#am__objects_43 = test/fuzz/test_fuzz_blocktransactionsrequest_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_blocktransactionsrequest_deserialize_OBJECTS =  \
+##	$(am__objects_43) \
+##	test/fuzz/test_fuzz_blocktransactionsrequest_deserialize-deserialize.$(OBJEXT)
 test_fuzz_blocktransactionsrequest_deserialize_OBJECTS =  \
 	$(am_test_fuzz_blocktransactionsrequest_deserialize_OBJECTS)
-#test_fuzz_blocktransactionsrequest_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blocktransactionsrequest_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blocktransactionsrequest_deserialize_LINK = $(LIBTOOL) \
 	$(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(CXXLD) \
@@ -1447,50 +1447,50 @@ test_fuzz_blocktransactionsrequest_deserialize_LINK = $(LIBTOOL) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_blockundo_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_44 = test/fuzz/test_fuzz_blockundo_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_blockundo_deserialize_OBJECTS =  \
-#	$(am__objects_44) \
-#	test/fuzz/test_fuzz_blockundo_deserialize-deserialize.$(OBJEXT)
+#am__objects_44 = test/fuzz/test_fuzz_blockundo_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_blockundo_deserialize_OBJECTS =  \
+##	$(am__objects_44) \
+##	test/fuzz/test_fuzz_blockundo_deserialize-deserialize.$(OBJEXT)
 test_fuzz_blockundo_deserialize_OBJECTS =  \
 	$(am_test_fuzz_blockundo_deserialize_OBJECTS)
-#test_fuzz_blockundo_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_blockundo_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_blockundo_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_blockundo_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_blockundo_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_bloomfilter_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_45 = test/fuzz/test_fuzz_bloomfilter_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_bloomfilter_deserialize_OBJECTS =  \
-#	$(am__objects_45) \
-#	test/fuzz/test_fuzz_bloomfilter_deserialize-deserialize.$(OBJEXT)
+#am__objects_45 = test/fuzz/test_fuzz_bloomfilter_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_bloomfilter_deserialize_OBJECTS =  \
+##	$(am__objects_45) \
+##	test/fuzz/test_fuzz_bloomfilter_deserialize-deserialize.$(OBJEXT)
 test_fuzz_bloomfilter_deserialize_OBJECTS =  \
 	$(am_test_fuzz_bloomfilter_deserialize_OBJECTS)
-#test_fuzz_bloomfilter_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_bloomfilter_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_bloomfilter_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_bloomfilter_deserialize_CXXFLAGS) \
@@ -1498,50 +1498,50 @@ test_fuzz_bloomfilter_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_coins_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_46 = test/fuzz/test_fuzz_coins_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_coins_deserialize_OBJECTS =  \
-#	$(am__objects_46) \
-#	test/fuzz/test_fuzz_coins_deserialize-deserialize.$(OBJEXT)
+#am__objects_46 = test/fuzz/test_fuzz_coins_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_coins_deserialize_OBJECTS =  \
+##	$(am__objects_46) \
+##	test/fuzz/test_fuzz_coins_deserialize-deserialize.$(OBJEXT)
 test_fuzz_coins_deserialize_OBJECTS =  \
 	$(am_test_fuzz_coins_deserialize_OBJECTS)
-#test_fuzz_coins_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_coins_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_coins_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_coins_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_coins_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_diskblockindex_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_47 = test/fuzz/test_fuzz_diskblockindex_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_diskblockindex_deserialize_OBJECTS =  \
-#	$(am__objects_47) \
-#	test/fuzz/test_fuzz_diskblockindex_deserialize-deserialize.$(OBJEXT)
+#am__objects_47 = test/fuzz/test_fuzz_diskblockindex_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_diskblockindex_deserialize_OBJECTS =  \
+##	$(am__objects_47) \
+##	test/fuzz/test_fuzz_diskblockindex_deserialize-deserialize.$(OBJEXT)
 test_fuzz_diskblockindex_deserialize_OBJECTS =  \
 	$(am_test_fuzz_diskblockindex_deserialize_OBJECTS)
-#test_fuzz_diskblockindex_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_diskblockindex_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_diskblockindex_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_diskblockindex_deserialize_CXXFLAGS) \
@@ -1549,50 +1549,50 @@ test_fuzz_diskblockindex_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_inv_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_48 = test/fuzz/test_fuzz_inv_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_inv_deserialize_OBJECTS =  \
-#	$(am__objects_48) \
-#	test/fuzz/test_fuzz_inv_deserialize-deserialize.$(OBJEXT)
+#am__objects_48 = test/fuzz/test_fuzz_inv_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_inv_deserialize_OBJECTS =  \
+##	$(am__objects_48) \
+##	test/fuzz/test_fuzz_inv_deserialize-deserialize.$(OBJEXT)
 test_fuzz_inv_deserialize_OBJECTS =  \
 	$(am_test_fuzz_inv_deserialize_OBJECTS)
-#test_fuzz_inv_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_inv_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_inv_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_inv_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_inv_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_messageheader_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_49 = test/fuzz/test_fuzz_messageheader_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_messageheader_deserialize_OBJECTS =  \
-#	$(am__objects_49) \
-#	test/fuzz/test_fuzz_messageheader_deserialize-deserialize.$(OBJEXT)
+#am__objects_49 = test/fuzz/test_fuzz_messageheader_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_messageheader_deserialize_OBJECTS =  \
+##	$(am__objects_49) \
+##	test/fuzz/test_fuzz_messageheader_deserialize-deserialize.$(OBJEXT)
 test_fuzz_messageheader_deserialize_OBJECTS =  \
 	$(am_test_fuzz_messageheader_deserialize_OBJECTS)
-#test_fuzz_messageheader_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_messageheader_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_messageheader_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_messageheader_deserialize_CXXFLAGS) \
@@ -1600,99 +1600,99 @@ test_fuzz_messageheader_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_netaddr_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_50 = test/fuzz/test_fuzz_netaddr_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_netaddr_deserialize_OBJECTS =  \
-#	$(am__objects_50) \
-#	test/fuzz/test_fuzz_netaddr_deserialize-deserialize.$(OBJEXT)
+#am__objects_50 = test/fuzz/test_fuzz_netaddr_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_netaddr_deserialize_OBJECTS =  \
+##	$(am__objects_50) \
+##	test/fuzz/test_fuzz_netaddr_deserialize-deserialize.$(OBJEXT)
 test_fuzz_netaddr_deserialize_OBJECTS =  \
 	$(am_test_fuzz_netaddr_deserialize_OBJECTS)
-#test_fuzz_netaddr_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_netaddr_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_netaddr_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_netaddr_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_netaddr_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_script_flags_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/script_flags.cpp
-am__objects_51 = test/fuzz/test_fuzz_script_flags-fuzz.$(OBJEXT)
-#am_test_fuzz_script_flags_OBJECTS =  \
-#	$(am__objects_51) \
-#	test/fuzz/test_fuzz_script_flags-script_flags.$(OBJEXT)
+#am__objects_51 = test/fuzz/test_fuzz_script_flags-fuzz.$(OBJEXT)
+##am_test_fuzz_script_flags_OBJECTS =  \
+##	$(am__objects_51) \
+##	test/fuzz/test_fuzz_script_flags-script_flags.$(OBJEXT)
 test_fuzz_script_flags_OBJECTS = $(am_test_fuzz_script_flags_OBJECTS)
-#test_fuzz_script_flags_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_script_flags_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_script_flags_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_script_flags_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_script_flags_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_service_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_52 = test/fuzz/test_fuzz_service_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_service_deserialize_OBJECTS =  \
-#	$(am__objects_52) \
-#	test/fuzz/test_fuzz_service_deserialize-deserialize.$(OBJEXT)
+#am__objects_52 = test/fuzz/test_fuzz_service_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_service_deserialize_OBJECTS =  \
+##	$(am__objects_52) \
+##	test/fuzz/test_fuzz_service_deserialize-deserialize.$(OBJEXT)
 test_fuzz_service_deserialize_OBJECTS =  \
 	$(am_test_fuzz_service_deserialize_OBJECTS)
-#test_fuzz_service_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_service_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_service_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_service_deserialize_CXXFLAGS) $(CXXFLAGS) \
 	$(test_fuzz_service_deserialize_LDFLAGS) $(LDFLAGS) -o $@
 am__test_fuzz_transaction_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_53 = test/fuzz/test_fuzz_transaction_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_transaction_deserialize_OBJECTS =  \
-#	$(am__objects_53) \
-#	test/fuzz/test_fuzz_transaction_deserialize-deserialize.$(OBJEXT)
+#am__objects_53 = test/fuzz/test_fuzz_transaction_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_transaction_deserialize_OBJECTS =  \
+##	$(am__objects_53) \
+##	test/fuzz/test_fuzz_transaction_deserialize-deserialize.$(OBJEXT)
 test_fuzz_transaction_deserialize_OBJECTS =  \
 	$(am_test_fuzz_transaction_deserialize_OBJECTS)
-#test_fuzz_transaction_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_transaction_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_transaction_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_transaction_deserialize_CXXFLAGS) \
@@ -1700,25 +1700,25 @@ test_fuzz_transaction_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_txoutcompressor_deserialize_SOURCES_DIST =  \
 	test/fuzz/fuzz.cpp test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_54 = test/fuzz/test_fuzz_txoutcompressor_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_txoutcompressor_deserialize_OBJECTS =  \
-#	$(am__objects_54) \
-#	test/fuzz/test_fuzz_txoutcompressor_deserialize-deserialize.$(OBJEXT)
+#am__objects_54 = test/fuzz/test_fuzz_txoutcompressor_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_txoutcompressor_deserialize_OBJECTS =  \
+##	$(am__objects_54) \
+##	test/fuzz/test_fuzz_txoutcompressor_deserialize-deserialize.$(OBJEXT)
 test_fuzz_txoutcompressor_deserialize_OBJECTS =  \
 	$(am_test_fuzz_txoutcompressor_deserialize_OBJECTS)
-#test_fuzz_txoutcompressor_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_txoutcompressor_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_txoutcompressor_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CXXLD) $(test_fuzz_txoutcompressor_deserialize_CXXFLAGS) \
@@ -1726,25 +1726,25 @@ test_fuzz_txoutcompressor_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) \
 	$(LDFLAGS) -o $@
 am__test_fuzz_txundo_deserialize_SOURCES_DIST = test/fuzz/fuzz.cpp \
 	test/fuzz/fuzz.h test/fuzz/deserialize.cpp
-am__objects_55 = test/fuzz/test_fuzz_txundo_deserialize-fuzz.$(OBJEXT)
-#am_test_fuzz_txundo_deserialize_OBJECTS =  \
-#	$(am__objects_55) \
-#	test/fuzz/test_fuzz_txundo_deserialize-deserialize.$(OBJEXT)
+#am__objects_55 = test/fuzz/test_fuzz_txundo_deserialize-fuzz.$(OBJEXT)
+##am_test_fuzz_txundo_deserialize_OBJECTS =  \
+##	$(am__objects_55) \
+##	test/fuzz/test_fuzz_txundo_deserialize-deserialize.$(OBJEXT)
 test_fuzz_txundo_deserialize_OBJECTS =  \
 	$(am_test_fuzz_txundo_deserialize_OBJECTS)
-#test_fuzz_txundo_deserialize_DEPENDENCIES =  \
-#	$(am__DEPENDENCIES_4) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(am__DEPENDENCIES_1) \
-#	$(am__DEPENDENCIES_1)
+##test_fuzz_txundo_deserialize_DEPENDENCIES =  \
+##	$(am__DEPENDENCIES_4) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(am__DEPENDENCIES_1) \
+##	$(am__DEPENDENCIES_1)
 test_fuzz_txundo_deserialize_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_fuzz_txundo_deserialize_CXXFLAGS) $(CXXFLAGS) \
@@ -1798,109 +1798,109 @@ am__test_test_walocoin_SOURCES_DIST = test/test_bitcoin_main.cpp \
 	test/data/blockfilters.json test/data/key_io_valid.json \
 	test/data/key_io_invalid.json test/data/sighash.json \
 	test/data/tx_invalid.json test/data/tx_valid.json
-#am__objects_56 = test/gen/test_test_walocoin-crypto_gen.$(OBJEXT)
-am__objects_57 = wallet/test/test_test_walocoin-wallet_test_fixture.$(OBJEXT) \
-	wallet/test/test_test_walocoin-init_test_fixture.$(OBJEXT)
-am__objects_58 = test/test_test_walocoin-test_bitcoin_main.$(OBJEXT) \
-	test/test_test_walocoin-test_bitcoin.$(OBJEXT) \
-	$(am__objects_56) $(am__objects_57)
-#am__objects_59 = test/test_test_walocoin-key_properties.$(OBJEXT)
-am__objects_60 = wallet/test/test_test_walocoin-db_tests.$(OBJEXT) \
-	wallet/test/test_test_walocoin-psbt_wallet_tests.$(OBJEXT) \
-	wallet/test/test_test_walocoin-wallet_tests.$(OBJEXT) \
-	wallet/test/test_test_walocoin-wallet_crypto_tests.$(OBJEXT) \
-	wallet/test/test_test_walocoin-coinselector_tests.$(OBJEXT) \
-	wallet/test/test_test_walocoin-init_tests.$(OBJEXT)
-am__objects_61 = test/test_test_walocoin-arith_uint256_tests.$(OBJEXT) \
-	test/test_test_walocoin-addrman_tests.$(OBJEXT) \
-	test/test_test_walocoin-amount_tests.$(OBJEXT) \
-	test/test_test_walocoin-allocator_tests.$(OBJEXT) \
-	test/test_test_walocoin-base32_tests.$(OBJEXT) \
-	test/test_test_walocoin-base58_tests.$(OBJEXT) \
-	test/test_test_walocoin-base64_tests.$(OBJEXT) \
-	test/test_test_walocoin-bech32_tests.$(OBJEXT) \
-	test/test_test_walocoin-bip32_tests.$(OBJEXT) \
-	test/test_test_walocoin-blockchain_tests.$(OBJEXT) \
-	test/test_test_walocoin-blockfilter_tests.$(OBJEXT) \
-	test/test_test_walocoin-bloom_tests.$(OBJEXT) \
-	test/test_test_walocoin-bswap_tests.$(OBJEXT) \
-	test/test_test_walocoin-checkqueue_tests.$(OBJEXT) \
-	test/test_test_walocoin-coins_tests.$(OBJEXT) \
-	test/test_test_walocoin-compilerbug_tests.$(OBJEXT) \
-	test/test_test_walocoin-compress_tests.$(OBJEXT) \
-	test/test_test_walocoin-crypto_tests.$(OBJEXT) \
-	test/test_test_walocoin-cuckoocache_tests.$(OBJEXT) \
-	test/test_test_walocoin-denialofservice_tests.$(OBJEXT) \
-	test/test_test_walocoin-descriptor_tests.$(OBJEXT) \
-	test/test_test_walocoin-fs_tests.$(OBJEXT) \
-	test/test_test_walocoin-getarg_tests.$(OBJEXT) \
-	test/test_test_walocoin-hash_tests.$(OBJEXT) \
-	test/test_test_walocoin-key_io_tests.$(OBJEXT) \
-	test/test_test_walocoin-key_tests.$(OBJEXT) \
-	test/test_test_walocoin-limitedmap_tests.$(OBJEXT) \
-	test/test_test_walocoin-dbwrapper_tests.$(OBJEXT) \
-	test/test_test_walocoin-main_tests.$(OBJEXT) \
-	test/test_test_walocoin-mempool_tests.$(OBJEXT) \
-	test/test_test_walocoin-merkle_tests.$(OBJEXT) \
-	test/test_test_walocoin-merkleblock_tests.$(OBJEXT) \
-	test/test_test_walocoin-miner_tests.$(OBJEXT) \
-	test/test_test_walocoin-multisig_tests.$(OBJEXT) \
-	test/test_test_walocoin-net_tests.$(OBJEXT) \
-	test/test_test_walocoin-netbase_tests.$(OBJEXT) \
-	test/test_test_walocoin-pmt_tests.$(OBJEXT) \
-	test/test_test_walocoin-policyestimator_tests.$(OBJEXT) \
-	test/test_test_walocoin-pow_tests.$(OBJEXT) \
-	test/test_test_walocoin-prevector_tests.$(OBJEXT) \
-	test/test_test_walocoin-raii_event_tests.$(OBJEXT) \
-	test/test_test_walocoin-random_tests.$(OBJEXT) \
-	test/test_test_walocoin-reverselock_tests.$(OBJEXT) \
-	test/test_test_walocoin-rpc_tests.$(OBJEXT) \
-	test/test_test_walocoin-sanity_tests.$(OBJEXT) \
-	test/test_test_walocoin-scheduler_tests.$(OBJEXT) \
-	test/test_test_walocoin-script_p2sh_tests.$(OBJEXT) \
-	test/test_test_walocoin-script_tests.$(OBJEXT) \
-	test/test_test_walocoin-script_standard_tests.$(OBJEXT) \
-	test/test_test_walocoin-scriptnum_tests.$(OBJEXT) \
-	test/test_test_walocoin-scrypt_tests.$(OBJEXT) \
-	test/test_test_walocoin-serialize_tests.$(OBJEXT) \
-	test/test_test_walocoin-sighash_tests.$(OBJEXT) \
-	test/test_test_walocoin-sigopcount_tests.$(OBJEXT) \
-	test/test_test_walocoin-skiplist_tests.$(OBJEXT) \
-	test/test_test_walocoin-streams_tests.$(OBJEXT) \
-	test/test_test_walocoin-sync_tests.$(OBJEXT) \
-	test/test_test_walocoin-timedata_tests.$(OBJEXT) \
-	test/test_test_walocoin-torcontrol_tests.$(OBJEXT) \
-	test/test_test_walocoin-transaction_tests.$(OBJEXT) \
-	test/test_test_walocoin-txindex_tests.$(OBJEXT) \
-	test/test_test_walocoin-txvalidation_tests.$(OBJEXT) \
-	test/test_test_walocoin-txvalidationcache_tests.$(OBJEXT) \
-	test/test_test_walocoin-uint256_tests.$(OBJEXT) \
-	test/test_test_walocoin-util_tests.$(OBJEXT) \
-	test/test_test_walocoin-validation_block_tests.$(OBJEXT) \
-	test/test_test_walocoin-versionbits_tests.$(OBJEXT) \
-	$(am__objects_59) $(am__objects_60)
-am_test_test_walocoin_OBJECTS = $(am__objects_58) \
-	$(am__objects_61) $(am__objects_4) \
-	$(am__objects_4)
-am__objects_62 = $(am__objects_4) $(am__objects_4)
-nodist_test_test_walocoin_OBJECTS =  \
-	$(am__objects_62)
+##am__objects_56 = test/gen/test_test_walocoin-crypto_gen.$(OBJEXT)
+#am__objects_57 = wallet/test/test_test_walocoin-wallet_test_fixture.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-init_test_fixture.$(OBJEXT)
+#am__objects_58 = test/test_test_walocoin-test_bitcoin_main.$(OBJEXT) \
+#	test/test_test_walocoin-test_bitcoin.$(OBJEXT) \
+#	$(am__objects_56) $(am__objects_57)
+##am__objects_59 = test/test_test_walocoin-key_properties.$(OBJEXT)
+#am__objects_60 = wallet/test/test_test_walocoin-db_tests.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-psbt_wallet_tests.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-wallet_tests.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-wallet_crypto_tests.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-coinselector_tests.$(OBJEXT) \
+#	wallet/test/test_test_walocoin-init_tests.$(OBJEXT)
+#am__objects_61 = test/test_test_walocoin-arith_uint256_tests.$(OBJEXT) \
+#	test/test_test_walocoin-addrman_tests.$(OBJEXT) \
+#	test/test_test_walocoin-amount_tests.$(OBJEXT) \
+#	test/test_test_walocoin-allocator_tests.$(OBJEXT) \
+#	test/test_test_walocoin-base32_tests.$(OBJEXT) \
+#	test/test_test_walocoin-base58_tests.$(OBJEXT) \
+#	test/test_test_walocoin-base64_tests.$(OBJEXT) \
+#	test/test_test_walocoin-bech32_tests.$(OBJEXT) \
+#	test/test_test_walocoin-bip32_tests.$(OBJEXT) \
+#	test/test_test_walocoin-blockchain_tests.$(OBJEXT) \
+#	test/test_test_walocoin-blockfilter_tests.$(OBJEXT) \
+#	test/test_test_walocoin-bloom_tests.$(OBJEXT) \
+#	test/test_test_walocoin-bswap_tests.$(OBJEXT) \
+#	test/test_test_walocoin-checkqueue_tests.$(OBJEXT) \
+#	test/test_test_walocoin-coins_tests.$(OBJEXT) \
+#	test/test_test_walocoin-compilerbug_tests.$(OBJEXT) \
+#	test/test_test_walocoin-compress_tests.$(OBJEXT) \
+#	test/test_test_walocoin-crypto_tests.$(OBJEXT) \
+#	test/test_test_walocoin-cuckoocache_tests.$(OBJEXT) \
+#	test/test_test_walocoin-denialofservice_tests.$(OBJEXT) \
+#	test/test_test_walocoin-descriptor_tests.$(OBJEXT) \
+#	test/test_test_walocoin-fs_tests.$(OBJEXT) \
+#	test/test_test_walocoin-getarg_tests.$(OBJEXT) \
+#	test/test_test_walocoin-hash_tests.$(OBJEXT) \
+#	test/test_test_walocoin-key_io_tests.$(OBJEXT) \
+#	test/test_test_walocoin-key_tests.$(OBJEXT) \
+#	test/test_test_walocoin-limitedmap_tests.$(OBJEXT) \
+#	test/test_test_walocoin-dbwrapper_tests.$(OBJEXT) \
+#	test/test_test_walocoin-main_tests.$(OBJEXT) \
+#	test/test_test_walocoin-mempool_tests.$(OBJEXT) \
+#	test/test_test_walocoin-merkle_tests.$(OBJEXT) \
+#	test/test_test_walocoin-merkleblock_tests.$(OBJEXT) \
+#	test/test_test_walocoin-miner_tests.$(OBJEXT) \
+#	test/test_test_walocoin-multisig_tests.$(OBJEXT) \
+#	test/test_test_walocoin-net_tests.$(OBJEXT) \
+#	test/test_test_walocoin-netbase_tests.$(OBJEXT) \
+#	test/test_test_walocoin-pmt_tests.$(OBJEXT) \
+#	test/test_test_walocoin-policyestimator_tests.$(OBJEXT) \
+#	test/test_test_walocoin-pow_tests.$(OBJEXT) \
+#	test/test_test_walocoin-prevector_tests.$(OBJEXT) \
+#	test/test_test_walocoin-raii_event_tests.$(OBJEXT) \
+#	test/test_test_walocoin-random_tests.$(OBJEXT) \
+#	test/test_test_walocoin-reverselock_tests.$(OBJEXT) \
+#	test/test_test_walocoin-rpc_tests.$(OBJEXT) \
+#	test/test_test_walocoin-sanity_tests.$(OBJEXT) \
+#	test/test_test_walocoin-scheduler_tests.$(OBJEXT) \
+#	test/test_test_walocoin-script_p2sh_tests.$(OBJEXT) \
+#	test/test_test_walocoin-script_tests.$(OBJEXT) \
+#	test/test_test_walocoin-script_standard_tests.$(OBJEXT) \
+#	test/test_test_walocoin-scriptnum_tests.$(OBJEXT) \
+#	test/test_test_walocoin-scrypt_tests.$(OBJEXT) \
+#	test/test_test_walocoin-serialize_tests.$(OBJEXT) \
+#	test/test_test_walocoin-sighash_tests.$(OBJEXT) \
+#	test/test_test_walocoin-sigopcount_tests.$(OBJEXT) \
+#	test/test_test_walocoin-skiplist_tests.$(OBJEXT) \
+#	test/test_test_walocoin-streams_tests.$(OBJEXT) \
+#	test/test_test_walocoin-sync_tests.$(OBJEXT) \
+#	test/test_test_walocoin-timedata_tests.$(OBJEXT) \
+#	test/test_test_walocoin-torcontrol_tests.$(OBJEXT) \
+#	test/test_test_walocoin-transaction_tests.$(OBJEXT) \
+#	test/test_test_walocoin-txindex_tests.$(OBJEXT) \
+#	test/test_test_walocoin-txvalidation_tests.$(OBJEXT) \
+#	test/test_test_walocoin-txvalidationcache_tests.$(OBJEXT) \
+#	test/test_test_walocoin-uint256_tests.$(OBJEXT) \
+#	test/test_test_walocoin-util_tests.$(OBJEXT) \
+#	test/test_test_walocoin-validation_block_tests.$(OBJEXT) \
+#	test/test_test_walocoin-versionbits_tests.$(OBJEXT) \
+#	$(am__objects_59) $(am__objects_60)
+#am_test_test_walocoin_OBJECTS = $(am__objects_58) \
+#	$(am__objects_61) $(am__objects_4) \
+#	$(am__objects_4)
+#am__objects_62 = $(am__objects_4) $(am__objects_4)
+#nodist_test_test_walocoin_OBJECTS =  \
+#	$(am__objects_62)
 test_test_walocoin_OBJECTS = $(am_test_test_walocoin_OBJECTS) \
 	$(nodist_test_test_walocoin_OBJECTS)
-am__DEPENDENCIES_10 =  \
-	$(am__DEPENDENCIES_1)
-test_test_walocoin_DEPENDENCIES = $(am__append_33) \
-	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
-	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) \
-	$(LIBBITCOIN_CRYPTO) $(am__DEPENDENCIES_4) \
-	$(am__DEPENDENCIES_2) $(LIBLEVELDB_SSE42) \
-	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_10)
+#am__DEPENDENCIES_10 =  \
+#	$(am__DEPENDENCIES_1)
+#test_test_walocoin_DEPENDENCIES = $(am__append_33) \
+#	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
+#	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+#	$(LIBBITCOIN_CONSENSUS) \
+#	$(LIBBITCOIN_CRYPTO) $(am__DEPENDENCIES_4) \
+#	$(am__DEPENDENCIES_2) $(LIBLEVELDB_SSE42) \
+#	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+#	$(am__DEPENDENCIES_10)
 test_test_walocoin_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(test_test_walocoin_CXXFLAGS) $(CXXFLAGS) \
@@ -2399,7 +2399,7 @@ BOOST_LDFLAGS = -L/usr/lib/x86_64-linux-gnu
 BOOST_LIBS = -L/usr/lib/x86_64-linux-gnu -lboost_system -lboost_filesystem -lboost_thread -lpthread -lboost_chrono
 BOOST_SYSTEM_LIB = -lboost_system
 BOOST_THREAD_LIB = -lboost_thread -lpthread
-BOOST_UNIT_TEST_FRAMEWORK_LIB = -lboost_unit_test_framework
+BOOST_UNIT_TEST_FRAMEWORK_LIB = 
 BREW = 
 CC = /usr/bin/ccache gcc
 CCACHE = /usr/bin/ccache
@@ -2478,10 +2478,10 @@ LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIBTOOL_APP_LDFLAGS = 
 LIPO = 
 LN_S = ln -s
-LRELEASE = /usr/lib/qt5/bin/lrelease
+LRELEASE = 
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-LUPDATE = /usr/lib/qt5/bin/lupdate
+LUPDATE = 
 MAINT = 
 MAKEINFO = ${SHELL} /root/desarrollo/walocoin/build-aux/missing makeinfo
 MAKENSIS = 
@@ -2489,7 +2489,7 @@ MANIFEST_TOOL = :
 MINIUPNPC_CPPFLAGS = 
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /usr/lib/qt5/bin/moc
+MOC = 
 MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
 NMEDIT = 
@@ -2515,18 +2515,18 @@ PIE_FLAGS = -fPIE
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = 
-PROTOBUF_CFLAGS = -pthread
-PROTOBUF_LIBS = -lprotobuf -pthread -lpthread
-PROTOC = /usr/bin/protoc
+PROTOBUF_CFLAGS = 
+PROTOBUF_LIBS = 
+PROTOC = 
 PTHREAD_CC = gcc
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3.6
 PYTHONPATH = 
 QR_CFLAGS = 
-QR_LIBS = -lqrencode
-QT5_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT5_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core
+QR_LIBS = 
+QT5_CFLAGS = 
+QT5_LIBS = 
 QTACCESSIBILITY_CFLAGS = 
 QTACCESSIBILITY_LIBS = 
 QTCGL_CFLAGS = 
@@ -2549,21 +2549,21 @@ QTTHEME_CFLAGS =
 QTTHEME_LIBS = 
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_DBUS_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT_DBUS_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtDBus -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT_DBUS_LIBS = -lQt5DBus -lQt5Core
-QT_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
+QT_DBUS_CFLAGS = 
+QT_DBUS_INCLUDES = 
+QT_DBUS_LIBS = 
+QT_INCLUDES = 
 QT_LDFLAGS = 
-QT_LIBS = -lQt5Network -lQt5Widgets -lQt5Gui -lQt5Core
-QT_PIE_FLAGS = -fPIC
+QT_LIBS = 
+QT_PIE_FLAGS = 
 QT_SELECT = qt5
-QT_TEST_CFLAGS = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT_TEST_INCLUDES = -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5
-QT_TEST_LIBS = -lQt5Test -lQt5Core
+QT_TEST_CFLAGS = 
+QT_TEST_INCLUDES = 
+QT_TEST_LIBS = 
 QT_TRANSLATION_DIR = 
 RANLIB = /usr/bin/ranlib
 RAPIDCHECK_LIBS = 
-RCC = /usr/lib/qt5/bin/rcc
+RCC = 
 READELF = /usr/bin/readelf
 RELDFLAGS = 
 RSVG_CONVERT = 
@@ -2578,9 +2578,9 @@ SSE42_CXXFLAGS = -msse4.2
 SSL_CFLAGS = 
 SSL_LIBS = -lssl
 STRIP = /usr/bin/strip
-TESTDEFS =  -DBOOST_TEST_DYN_LINK
+TESTDEFS = 
 TIFFCP = 
-UIC = /usr/lib/qt5/bin/uic
+UIC = 
 UNIVALUE_CFLAGS = -I$(srcdir)/univalue/include
 UNIVALUE_LIBS = univalue/libunivalue.la
 USE_QRCODE = 
@@ -3179,483 +3179,483 @@ leveldb_libleveldb_sse42_a_CXXFLAGS =  \
 	$(leveldb_libleveldb_a_CXXFLAGS) \
 	$(am__append_26)
 leveldb_libleveldb_sse42_a_SOURCES = leveldb/port/port_posix_sse.cc
-FUZZ_TARGETS = \
-  test/fuzz/address_deserialize \
-  test/fuzz/addrman_deserialize \
-  test/fuzz/banentry_deserialize \
-  test/fuzz/block_deserialize \
-  test/fuzz/blockheader_deserialize \
-  test/fuzz/blocklocator_deserialize \
-  test/fuzz/blockmerkleroot \
-  test/fuzz/blocktransactions_deserialize \
-  test/fuzz/blocktransactionsrequest_deserialize \
-  test/fuzz/blockundo_deserialize \
-  test/fuzz/bloomfilter_deserialize \
-  test/fuzz/coins_deserialize \
-  test/fuzz/diskblockindex_deserialize \
-  test/fuzz/inv_deserialize \
-  test/fuzz/messageheader_deserialize \
-  test/fuzz/netaddr_deserialize \
-  test/fuzz/script_flags \
-  test/fuzz/service_deserialize \
-  test/fuzz/transaction_deserialize \
-  test/fuzz/txoutcompressor_deserialize \
-  test/fuzz/txundo_deserialize
+#FUZZ_TARGETS = \
+#  test/fuzz/address_deserialize \
+#  test/fuzz/addrman_deserialize \
+#  test/fuzz/banentry_deserialize \
+#  test/fuzz/block_deserialize \
+#  test/fuzz/blockheader_deserialize \
+#  test/fuzz/blocklocator_deserialize \
+#  test/fuzz/blockmerkleroot \
+#  test/fuzz/blocktransactions_deserialize \
+#  test/fuzz/blocktransactionsrequest_deserialize \
+#  test/fuzz/blockundo_deserialize \
+#  test/fuzz/bloomfilter_deserialize \
+#  test/fuzz/coins_deserialize \
+#  test/fuzz/diskblockindex_deserialize \
+#  test/fuzz/inv_deserialize \
+#  test/fuzz/messageheader_deserialize \
+#  test/fuzz/netaddr_deserialize \
+#  test/fuzz/script_flags \
+#  test/fuzz/service_deserialize \
+#  test/fuzz/transaction_deserialize \
+#  test/fuzz/txoutcompressor_deserialize \
+#  test/fuzz/txundo_deserialize
 
-TEST_SRCDIR = test
-TEST_BINARY = test/test_walocoin$(EXEEXT)
-JSON_TEST_FILES = \
-  test/data/script_tests.json \
-  test/data/base58_encode_decode.json \
-  test/data/blockfilters.json \
-  test/data/key_io_valid.json \
-  test/data/key_io_invalid.json \
-  test/data/script_tests.json \
-  test/data/sighash.json \
-  test/data/tx_invalid.json \
-  test/data/tx_valid.json
+#TEST_SRCDIR = test
+#TEST_BINARY = test/test_walocoin$(EXEEXT)
+#JSON_TEST_FILES = \
+#  test/data/script_tests.json \
+#  test/data/base58_encode_decode.json \
+#  test/data/blockfilters.json \
+#  test/data/key_io_valid.json \
+#  test/data/key_io_invalid.json \
+#  test/data/script_tests.json \
+#  test/data/sighash.json \
+#  test/data/tx_invalid.json \
+#  test/data/tx_valid.json
 
-RAW_TEST_FILES = 
-GENERATED_TEST_FILES = $(JSON_TEST_FILES:.json=.json.h) $(RAW_TEST_FILES:.raw=.raw.h)
-BITCOIN_TEST_SUITE = test/test_bitcoin_main.cpp \
-	test/test_bitcoin.h test/test_bitcoin.cpp \
-	$(am__append_30) $(am__append_32)
-FUZZ_SUITE = \
-  test/fuzz/fuzz.cpp \
-  test/fuzz/fuzz.h
+#RAW_TEST_FILES = 
+#GENERATED_TEST_FILES = $(JSON_TEST_FILES:.json=.json.h) $(RAW_TEST_FILES:.raw=.raw.h)
+#BITCOIN_TEST_SUITE = test/test_bitcoin_main.cpp \
+#	test/test_bitcoin.h test/test_bitcoin.cpp \
+#	$(am__append_30) $(am__append_32)
+#FUZZ_SUITE = \
+#  test/fuzz/fuzz.cpp \
+#  test/fuzz/fuzz.h
 
 
 # test_bitcoin binary #
-BITCOIN_TESTS = test/arith_uint256_tests.cpp \
-	test/scriptnum10.h test/addrman_tests.cpp \
-	test/amount_tests.cpp \
-	test/allocator_tests.cpp \
-	test/base32_tests.cpp test/base58_tests.cpp \
-	test/base64_tests.cpp test/bech32_tests.cpp \
-	test/bip32_tests.cpp \
-	test/blockchain_tests.cpp \
-	test/blockfilter_tests.cpp \
-	test/bloom_tests.cpp test/bswap_tests.cpp \
-	test/checkqueue_tests.cpp \
-	test/coins_tests.cpp \
-	test/compilerbug_tests.cpp \
-	test/compress_tests.cpp \
-	test/crypto_tests.cpp \
-	test/cuckoocache_tests.cpp \
-	test/denialofservice_tests.cpp \
-	test/descriptor_tests.cpp test/fs_tests.cpp \
-	test/getarg_tests.cpp test/hash_tests.cpp \
-	test/key_io_tests.cpp test/key_tests.cpp \
-	test/limitedmap_tests.cpp \
-	test/dbwrapper_tests.cpp \
-	test/main_tests.cpp test/mempool_tests.cpp \
-	test/merkle_tests.cpp \
-	test/merkleblock_tests.cpp \
-	test/miner_tests.cpp \
-	test/multisig_tests.cpp test/net_tests.cpp \
-	test/netbase_tests.cpp test/pmt_tests.cpp \
-	test/policyestimator_tests.cpp \
-	test/pow_tests.cpp test/prevector_tests.cpp \
-	test/raii_event_tests.cpp \
-	test/random_tests.cpp \
-	test/reverselock_tests.cpp \
-	test/rpc_tests.cpp test/sanity_tests.cpp \
-	test/scheduler_tests.cpp \
-	test/script_p2sh_tests.cpp \
-	test/script_tests.cpp \
-	test/script_standard_tests.cpp \
-	test/scriptnum_tests.cpp \
-	test/scrypt_tests.cpp \
-	test/serialize_tests.cpp \
-	test/sighash_tests.cpp \
-	test/sigopcount_tests.cpp \
-	test/skiplist_tests.cpp \
-	test/streams_tests.cpp test/sync_tests.cpp \
-	test/timedata_tests.cpp \
-	test/torcontrol_tests.cpp \
-	test/transaction_tests.cpp \
-	test/txindex_tests.cpp \
-	test/txvalidation_tests.cpp \
-	test/txvalidationcache_tests.cpp \
-	test/uint256_tests.cpp test/util_tests.cpp \
-	test/validation_block_tests.cpp \
-	test/versionbits_tests.cpp $(am__append_29) \
-	$(am__append_31)
-test_test_walocoin_SOURCES = $(BITCOIN_TEST_SUITE) $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_walocoin_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(TESTDEFS) $(EVENT_CFLAGS)
-test_test_walocoin_LDADD = $(am__append_33) \
-	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
-	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) \
-	$(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) \
-	$(LIBLEVELDB) $(LIBLEVELDB_SSE42) \
-	$(LIBMEMENV) $(BOOST_LIBS) \
-	$(BOOST_UNIT_TEST_FRAMEWORK_LIB) \
-	$(LIBSECP256K1) $(EVENT_LIBS) \
-	$(EVENT_PTHREADS_LIBS) $(BDB_LIBS) \
-	$(CRYPTO_LIBS) $(MINIUPNPC_LIBS) \
-	$(RAPIDCHECK_LIBS) $(am__append_34)
-test_test_walocoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-test_test_walocoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
-#test_fuzz_block_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_block_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCK_DESERIALIZE=1
-#test_fuzz_block_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_block_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_block_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
+#BITCOIN_TESTS = test/arith_uint256_tests.cpp \
+#	test/scriptnum10.h test/addrman_tests.cpp \
+#	test/amount_tests.cpp \
+#	test/allocator_tests.cpp \
+#	test/base32_tests.cpp test/base58_tests.cpp \
+#	test/base64_tests.cpp test/bech32_tests.cpp \
+#	test/bip32_tests.cpp \
+#	test/blockchain_tests.cpp \
+#	test/blockfilter_tests.cpp \
+#	test/bloom_tests.cpp test/bswap_tests.cpp \
+#	test/checkqueue_tests.cpp \
+#	test/coins_tests.cpp \
+#	test/compilerbug_tests.cpp \
+#	test/compress_tests.cpp \
+#	test/crypto_tests.cpp \
+#	test/cuckoocache_tests.cpp \
+#	test/denialofservice_tests.cpp \
+#	test/descriptor_tests.cpp test/fs_tests.cpp \
+#	test/getarg_tests.cpp test/hash_tests.cpp \
+#	test/key_io_tests.cpp test/key_tests.cpp \
+#	test/limitedmap_tests.cpp \
+#	test/dbwrapper_tests.cpp \
+#	test/main_tests.cpp test/mempool_tests.cpp \
+#	test/merkle_tests.cpp \
+#	test/merkleblock_tests.cpp \
+#	test/miner_tests.cpp \
+#	test/multisig_tests.cpp test/net_tests.cpp \
+#	test/netbase_tests.cpp test/pmt_tests.cpp \
+#	test/policyestimator_tests.cpp \
+#	test/pow_tests.cpp test/prevector_tests.cpp \
+#	test/raii_event_tests.cpp \
+#	test/random_tests.cpp \
+#	test/reverselock_tests.cpp \
+#	test/rpc_tests.cpp test/sanity_tests.cpp \
+#	test/scheduler_tests.cpp \
+#	test/script_p2sh_tests.cpp \
+#	test/script_tests.cpp \
+#	test/script_standard_tests.cpp \
+#	test/scriptnum_tests.cpp \
+#	test/scrypt_tests.cpp \
+#	test/serialize_tests.cpp \
+#	test/sighash_tests.cpp \
+#	test/sigopcount_tests.cpp \
+#	test/skiplist_tests.cpp \
+#	test/streams_tests.cpp test/sync_tests.cpp \
+#	test/timedata_tests.cpp \
+#	test/torcontrol_tests.cpp \
+#	test/transaction_tests.cpp \
+#	test/txindex_tests.cpp \
+#	test/txvalidation_tests.cpp \
+#	test/txvalidationcache_tests.cpp \
+#	test/uint256_tests.cpp test/util_tests.cpp \
+#	test/validation_block_tests.cpp \
+#	test/versionbits_tests.cpp $(am__append_29) \
+#	$(am__append_31)
+#test_test_walocoin_SOURCES = $(BITCOIN_TEST_SUITE) $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+#test_test_walocoin_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(TESTDEFS) $(EVENT_CFLAGS)
+#test_test_walocoin_LDADD = $(am__append_33) \
+#	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
+#	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
 #	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_transaction_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_transaction_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTRANSACTION_DESERIALIZE=1
-#test_fuzz_transaction_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_transaction_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_transaction_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blocklocator_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blocklocator_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKLOCATOR_DESERIALIZE=1
-#test_fuzz_blocklocator_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blocklocator_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blocklocator_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blockmerkleroot_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blockmerkleroot_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKMERKLEROOT=1
-#test_fuzz_blockmerkleroot_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blockmerkleroot_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blockmerkleroot_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_addrman_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_addrman_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DADDRMAN_DESERIALIZE=1
-#test_fuzz_addrman_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_addrman_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_addrman_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blockheader_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blockheader_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKHEADER_DESERIALIZE=1
-#test_fuzz_blockheader_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blockheader_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blockheader_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_banentry_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_banentry_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBANENTRY_DESERIALIZE=1
-#test_fuzz_banentry_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_banentry_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_banentry_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_txundo_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_txundo_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTXUNDO_DESERIALIZE=1
-#test_fuzz_txundo_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_txundo_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_txundo_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blockundo_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blockundo_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKUNDO_DESERIALIZE=1
-#test_fuzz_blockundo_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blockundo_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blockundo_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_coins_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_coins_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DCOINS_DESERIALIZE=1
-#test_fuzz_coins_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_coins_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_coins_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_netaddr_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_netaddr_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DNETADDR_DESERIALIZE=1
-#test_fuzz_netaddr_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_netaddr_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_netaddr_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_script_flags_SOURCES = $(FUZZ_SUITE) test/fuzz/script_flags.cpp
-#test_fuzz_script_flags_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-#test_fuzz_script_flags_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_script_flags_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_script_flags_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_service_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_service_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DSERVICE_DESERIALIZE=1
-#test_fuzz_service_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_service_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_service_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_messageheader_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_messageheader_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DMESSAGEHEADER_DESERIALIZE=1
-#test_fuzz_messageheader_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_messageheader_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_messageheader_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_address_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_address_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DADDRESS_DESERIALIZE=1
-#test_fuzz_address_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_address_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_address_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_inv_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_inv_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DINV_DESERIALIZE=1
-#test_fuzz_inv_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_inv_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_inv_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_bloomfilter_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_bloomfilter_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOOMFILTER_DESERIALIZE=1
-#test_fuzz_bloomfilter_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_bloomfilter_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_bloomfilter_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_diskblockindex_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_diskblockindex_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DDISKBLOCKINDEX_DESERIALIZE=1
-#test_fuzz_diskblockindex_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_diskblockindex_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_diskblockindex_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_txoutcompressor_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_txoutcompressor_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTXOUTCOMPRESSOR_DESERIALIZE=1
-#test_fuzz_txoutcompressor_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_txoutcompressor_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_txoutcompressor_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blocktransactions_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blocktransactions_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKTRANSACTIONS_DESERIALIZE=1
-#test_fuzz_blocktransactions_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blocktransactions_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blocktransactions_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-#test_fuzz_blocktransactionsrequest_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
-#test_fuzz_blocktransactionsrequest_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKTRANSACTIONSREQUEST_DESERIALIZE=1
-#test_fuzz_blocktransactionsrequest_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#test_fuzz_blocktransactionsrequest_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-#test_fuzz_blocktransactionsrequest_deserialize_LDADD =  \
-#	$(LIBUNIVALUE) \
-#	$(LIBBITCOIN_SERVER) \
-#	$(LIBBITCOIN_COMMON) \
-#	$(LIBBITCOIN_UTIL) \
-#	$(LIBBITCOIN_CONSENSUS) \
-#	$(LIBBITCOIN_CRYPTO) \
-#	$(LIBBITCOIN_CRYPTO_SSE41) \
-#	$(LIBBITCOIN_CRYPTO_AVX2) \
-#	$(LIBBITCOIN_CRYPTO_SHANI) \
-#	$(LIBSECP256K1) \
-#	$(BOOST_LIBS) \
-#	$(CRYPTO_LIBS)
-nodist_test_test_walocoin_SOURCES = $(GENERATED_TEST_FILES)
-CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES) $(BITCOIN_TESTS:=.log)
+#	$(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) \
+#	$(LIBLEVELDB) $(LIBLEVELDB_SSE42) \
+#	$(LIBMEMENV) $(BOOST_LIBS) \
+#	$(BOOST_UNIT_TEST_FRAMEWORK_LIB) \
+#	$(LIBSECP256K1) $(EVENT_LIBS) \
+#	$(EVENT_PTHREADS_LIBS) $(BDB_LIBS) \
+#	$(CRYPTO_LIBS) $(MINIUPNPC_LIBS) \
+#	$(RAPIDCHECK_LIBS) $(am__append_34)
+#test_test_walocoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+#test_test_walocoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+##test_fuzz_block_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_block_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCK_DESERIALIZE=1
+##test_fuzz_block_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_block_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_block_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_transaction_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_transaction_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTRANSACTION_DESERIALIZE=1
+##test_fuzz_transaction_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_transaction_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_transaction_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blocklocator_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blocklocator_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKLOCATOR_DESERIALIZE=1
+##test_fuzz_blocklocator_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blocklocator_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blocklocator_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blockmerkleroot_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blockmerkleroot_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKMERKLEROOT=1
+##test_fuzz_blockmerkleroot_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blockmerkleroot_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blockmerkleroot_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_addrman_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_addrman_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DADDRMAN_DESERIALIZE=1
+##test_fuzz_addrman_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_addrman_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_addrman_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blockheader_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blockheader_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKHEADER_DESERIALIZE=1
+##test_fuzz_blockheader_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blockheader_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blockheader_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_banentry_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_banentry_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBANENTRY_DESERIALIZE=1
+##test_fuzz_banentry_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_banentry_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_banentry_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_txundo_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_txundo_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTXUNDO_DESERIALIZE=1
+##test_fuzz_txundo_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_txundo_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_txundo_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blockundo_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blockundo_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKUNDO_DESERIALIZE=1
+##test_fuzz_blockundo_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blockundo_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blockundo_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_coins_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_coins_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DCOINS_DESERIALIZE=1
+##test_fuzz_coins_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_coins_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_coins_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_netaddr_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_netaddr_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DNETADDR_DESERIALIZE=1
+##test_fuzz_netaddr_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_netaddr_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_netaddr_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_script_flags_SOURCES = $(FUZZ_SUITE) test/fuzz/script_flags.cpp
+##test_fuzz_script_flags_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+##test_fuzz_script_flags_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_script_flags_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_script_flags_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_service_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_service_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DSERVICE_DESERIALIZE=1
+##test_fuzz_service_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_service_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_service_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_messageheader_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_messageheader_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DMESSAGEHEADER_DESERIALIZE=1
+##test_fuzz_messageheader_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_messageheader_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_messageheader_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_address_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_address_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DADDRESS_DESERIALIZE=1
+##test_fuzz_address_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_address_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_address_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_inv_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_inv_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DINV_DESERIALIZE=1
+##test_fuzz_inv_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_inv_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_inv_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_bloomfilter_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_bloomfilter_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOOMFILTER_DESERIALIZE=1
+##test_fuzz_bloomfilter_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_bloomfilter_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_bloomfilter_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_diskblockindex_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_diskblockindex_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DDISKBLOCKINDEX_DESERIALIZE=1
+##test_fuzz_diskblockindex_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_diskblockindex_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_diskblockindex_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_txoutcompressor_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_txoutcompressor_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DTXOUTCOMPRESSOR_DESERIALIZE=1
+##test_fuzz_txoutcompressor_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_txoutcompressor_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_txoutcompressor_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blocktransactions_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blocktransactions_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKTRANSACTIONS_DESERIALIZE=1
+##test_fuzz_blocktransactions_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blocktransactions_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blocktransactions_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+##test_fuzz_blocktransactionsrequest_deserialize_SOURCES = $(FUZZ_SUITE) test/fuzz/deserialize.cpp
+##test_fuzz_blocktransactionsrequest_deserialize_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) -DBLOCKTRANSACTIONSREQUEST_DESERIALIZE=1
+##test_fuzz_blocktransactionsrequest_deserialize_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+##test_fuzz_blocktransactionsrequest_deserialize_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+##test_fuzz_blocktransactionsrequest_deserialize_LDADD =  \
+##	$(LIBUNIVALUE) \
+##	$(LIBBITCOIN_SERVER) \
+##	$(LIBBITCOIN_COMMON) \
+##	$(LIBBITCOIN_UTIL) \
+##	$(LIBBITCOIN_CONSENSUS) \
+##	$(LIBBITCOIN_CRYPTO) \
+##	$(LIBBITCOIN_CRYPTO_SSE41) \
+##	$(LIBBITCOIN_CRYPTO_AVX2) \
+##	$(LIBBITCOIN_CRYPTO_SHANI) \
+##	$(LIBSECP256K1) \
+##	$(BOOST_LIBS) \
+##	$(CRYPTO_LIBS)
+#nodist_test_test_walocoin_SOURCES = $(GENERATED_TEST_FILES)
+#CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES) $(BITCOIN_TESTS:=.log)
 #BENCH_SRCDIR = bench
 #BENCH_BINARY = bench/bench_walocoin$(EXEEXT)
 #RAW_BENCH_FILES = \
@@ -3688,491 +3688,491 @@ CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES) $(BITCOIN_T
 #	$(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
 #bench_bench_walocoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 #CLEAN_BITCOIN_BENCH = bench/*.gcda bench/*.gcno $(GENERATED_BENCH_FILES)
-QT_TS = \
-  qt/locale/bitcoin_af.ts \
-  qt/locale/bitcoin_af_ZA.ts \
-  qt/locale/bitcoin_am.ts \
-  qt/locale/bitcoin_ar.ts \
-  qt/locale/bitcoin_be_BY.ts \
-  qt/locale/bitcoin_bg.ts \
-  qt/locale/bitcoin_bg_BG.ts \
-  qt/locale/bitcoin_bn.ts \
-  qt/locale/bitcoin_bs.ts \
-  qt/locale/bitcoin_ca.ts \
-  qt/locale/bitcoin_ca@valencia.ts \
-  qt/locale/bitcoin_ca_ES.ts \
-  qt/locale/bitcoin_cs.ts \
-  qt/locale/bitcoin_cs_CZ.ts \
-  qt/locale/bitcoin_cy.ts \
-  qt/locale/bitcoin_da.ts \
-  qt/locale/bitcoin_de.ts \
-  qt/locale/bitcoin_de_DE.ts \
-  qt/locale/bitcoin_el.ts \
-  qt/locale/bitcoin_el_GR.ts \
-  qt/locale/bitcoin_en.ts \
-  qt/locale/bitcoin_en_AU.ts \
-  qt/locale/bitcoin_en_GB.ts \
-  qt/locale/bitcoin_eo.ts \
-  qt/locale/bitcoin_es.ts \
-  qt/locale/bitcoin_es_419.ts \
-  qt/locale/bitcoin_es_AR.ts \
-  qt/locale/bitcoin_es_CL.ts \
-  qt/locale/bitcoin_es_CO.ts \
-  qt/locale/bitcoin_es_DO.ts \
-  qt/locale/bitcoin_es_ES.ts \
-  qt/locale/bitcoin_es_MX.ts \
-  qt/locale/bitcoin_es_UY.ts \
-  qt/locale/bitcoin_es_VE.ts \
-  qt/locale/bitcoin_et.ts \
-  qt/locale/bitcoin_et_EE.ts \
-  qt/locale/bitcoin_eu_ES.ts \
-  qt/locale/bitcoin_fa.ts \
-  qt/locale/bitcoin_fa_IR.ts \
-  qt/locale/bitcoin_fi.ts \
-  qt/locale/bitcoin_fil.ts \
-  qt/locale/bitcoin_fr.ts \
-  qt/locale/bitcoin_fr_CA.ts \
-  qt/locale/bitcoin_fr_FR.ts \
-  qt/locale/bitcoin_gl.ts \
-  qt/locale/bitcoin_he.ts \
-  qt/locale/bitcoin_he_IL.ts \
-  qt/locale/bitcoin_hi.ts \
-  qt/locale/bitcoin_hi_IN.ts \
-  qt/locale/bitcoin_hr.ts \
-  qt/locale/bitcoin_hu.ts \
-  qt/locale/bitcoin_hu_HU.ts \
-  qt/locale/bitcoin_id.ts \
-  qt/locale/bitcoin_id_ID.ts \
-  qt/locale/bitcoin_is.ts \
-  qt/locale/bitcoin_it.ts \
-  qt/locale/bitcoin_it_IT.ts \
-  qt/locale/bitcoin_ja.ts \
-  qt/locale/bitcoin_ka.ts \
-  qt/locale/bitcoin_kk_KZ.ts \
-  qt/locale/bitcoin_km_KH.ts \
-  qt/locale/bitcoin_ko.ts \
-  qt/locale/bitcoin_ko_KR.ts \
-  qt/locale/bitcoin_ku_IQ.ts \
-  qt/locale/bitcoin_ky.ts \
-  qt/locale/bitcoin_la.ts \
-  qt/locale/bitcoin_lt.ts \
-  qt/locale/bitcoin_lv_LV.ts \
-  qt/locale/bitcoin_mk_MK.ts \
-  qt/locale/bitcoin_ml.ts \
-  qt/locale/bitcoin_mn.ts \
-  qt/locale/bitcoin_mr_IN.ts \
-  qt/locale/bitcoin_ms.ts \
-  qt/locale/bitcoin_ms_MY.ts \
-  qt/locale/bitcoin_my.ts \
-  qt/locale/bitcoin_nb.ts \
-  qt/locale/bitcoin_nb_NO.ts \
-  qt/locale/bitcoin_ne.ts \
-  qt/locale/bitcoin_nl.ts \
-  qt/locale/bitcoin_nl_BE.ts \
-  qt/locale/bitcoin_nl_NL.ts \
-  qt/locale/bitcoin_pam.ts \
-  qt/locale/bitcoin_pl.ts \
-  qt/locale/bitcoin_pl_PL.ts \
-  qt/locale/bitcoin_pt.ts \
-  qt/locale/bitcoin_pt_BR.ts \
-  qt/locale/bitcoin_pt_PT.ts \
-  qt/locale/bitcoin_ro.ts \
-  qt/locale/bitcoin_ro_RO.ts \
-  qt/locale/bitcoin_ru.ts \
-  qt/locale/bitcoin_ru_RU.ts \
-  qt/locale/bitcoin_si.ts \
-  qt/locale/bitcoin_sk.ts \
-  qt/locale/bitcoin_sk_SK.ts \
-  qt/locale/bitcoin_sl_SI.ts \
-  qt/locale/bitcoin_sn.ts \
-  qt/locale/bitcoin_sq.ts \
-  qt/locale/bitcoin_sr.ts \
-  qt/locale/bitcoin_sr@latin.ts \
-  qt/locale/bitcoin_sv.ts \
-  qt/locale/bitcoin_szl.ts \
-  qt/locale/bitcoin_ta.ts \
-  qt/locale/bitcoin_ta_IN.ts \
-  qt/locale/bitcoin_te.ts \
-  qt/locale/bitcoin_th.ts \
-  qt/locale/bitcoin_th_TH.ts \
-  qt/locale/bitcoin_tr.ts \
-  qt/locale/bitcoin_tr_TR.ts \
-  qt/locale/bitcoin_uk.ts \
-  qt/locale/bitcoin_uk_UA.ts \
-  qt/locale/bitcoin_ur_PK.ts \
-  qt/locale/bitcoin_uz@Cyrl.ts \
-  qt/locale/bitcoin_vi.ts \
-  qt/locale/bitcoin_vi_VN.ts \
-  qt/locale/bitcoin_zh-Hans.ts \
-  qt/locale/bitcoin_zh.ts \
-  qt/locale/bitcoin_zh_CN.ts \
-  qt/locale/bitcoin_zh_HK.ts \
-  qt/locale/bitcoin_zh_TW.ts
+#QT_TS = \
+#  qt/locale/bitcoin_af.ts \
+#  qt/locale/bitcoin_af_ZA.ts \
+#  qt/locale/bitcoin_am.ts \
+#  qt/locale/bitcoin_ar.ts \
+#  qt/locale/bitcoin_be_BY.ts \
+#  qt/locale/bitcoin_bg.ts \
+#  qt/locale/bitcoin_bg_BG.ts \
+#  qt/locale/bitcoin_bn.ts \
+#  qt/locale/bitcoin_bs.ts \
+#  qt/locale/bitcoin_ca.ts \
+#  qt/locale/bitcoin_ca@valencia.ts \
+#  qt/locale/bitcoin_ca_ES.ts \
+#  qt/locale/bitcoin_cs.ts \
+#  qt/locale/bitcoin_cs_CZ.ts \
+#  qt/locale/bitcoin_cy.ts \
+#  qt/locale/bitcoin_da.ts \
+#  qt/locale/bitcoin_de.ts \
+#  qt/locale/bitcoin_de_DE.ts \
+#  qt/locale/bitcoin_el.ts \
+#  qt/locale/bitcoin_el_GR.ts \
+#  qt/locale/bitcoin_en.ts \
+#  qt/locale/bitcoin_en_AU.ts \
+#  qt/locale/bitcoin_en_GB.ts \
+#  qt/locale/bitcoin_eo.ts \
+#  qt/locale/bitcoin_es.ts \
+#  qt/locale/bitcoin_es_419.ts \
+#  qt/locale/bitcoin_es_AR.ts \
+#  qt/locale/bitcoin_es_CL.ts \
+#  qt/locale/bitcoin_es_CO.ts \
+#  qt/locale/bitcoin_es_DO.ts \
+#  qt/locale/bitcoin_es_ES.ts \
+#  qt/locale/bitcoin_es_MX.ts \
+#  qt/locale/bitcoin_es_UY.ts \
+#  qt/locale/bitcoin_es_VE.ts \
+#  qt/locale/bitcoin_et.ts \
+#  qt/locale/bitcoin_et_EE.ts \
+#  qt/locale/bitcoin_eu_ES.ts \
+#  qt/locale/bitcoin_fa.ts \
+#  qt/locale/bitcoin_fa_IR.ts \
+#  qt/locale/bitcoin_fi.ts \
+#  qt/locale/bitcoin_fil.ts \
+#  qt/locale/bitcoin_fr.ts \
+#  qt/locale/bitcoin_fr_CA.ts \
+#  qt/locale/bitcoin_fr_FR.ts \
+#  qt/locale/bitcoin_gl.ts \
+#  qt/locale/bitcoin_he.ts \
+#  qt/locale/bitcoin_he_IL.ts \
+#  qt/locale/bitcoin_hi.ts \
+#  qt/locale/bitcoin_hi_IN.ts \
+#  qt/locale/bitcoin_hr.ts \
+#  qt/locale/bitcoin_hu.ts \
+#  qt/locale/bitcoin_hu_HU.ts \
+#  qt/locale/bitcoin_id.ts \
+#  qt/locale/bitcoin_id_ID.ts \
+#  qt/locale/bitcoin_is.ts \
+#  qt/locale/bitcoin_it.ts \
+#  qt/locale/bitcoin_it_IT.ts \
+#  qt/locale/bitcoin_ja.ts \
+#  qt/locale/bitcoin_ka.ts \
+#  qt/locale/bitcoin_kk_KZ.ts \
+#  qt/locale/bitcoin_km_KH.ts \
+#  qt/locale/bitcoin_ko.ts \
+#  qt/locale/bitcoin_ko_KR.ts \
+#  qt/locale/bitcoin_ku_IQ.ts \
+#  qt/locale/bitcoin_ky.ts \
+#  qt/locale/bitcoin_la.ts \
+#  qt/locale/bitcoin_lt.ts \
+#  qt/locale/bitcoin_lv_LV.ts \
+#  qt/locale/bitcoin_mk_MK.ts \
+#  qt/locale/bitcoin_ml.ts \
+#  qt/locale/bitcoin_mn.ts \
+#  qt/locale/bitcoin_mr_IN.ts \
+#  qt/locale/bitcoin_ms.ts \
+#  qt/locale/bitcoin_ms_MY.ts \
+#  qt/locale/bitcoin_my.ts \
+#  qt/locale/bitcoin_nb.ts \
+#  qt/locale/bitcoin_nb_NO.ts \
+#  qt/locale/bitcoin_ne.ts \
+#  qt/locale/bitcoin_nl.ts \
+#  qt/locale/bitcoin_nl_BE.ts \
+#  qt/locale/bitcoin_nl_NL.ts \
+#  qt/locale/bitcoin_pam.ts \
+#  qt/locale/bitcoin_pl.ts \
+#  qt/locale/bitcoin_pl_PL.ts \
+#  qt/locale/bitcoin_pt.ts \
+#  qt/locale/bitcoin_pt_BR.ts \
+#  qt/locale/bitcoin_pt_PT.ts \
+#  qt/locale/bitcoin_ro.ts \
+#  qt/locale/bitcoin_ro_RO.ts \
+#  qt/locale/bitcoin_ru.ts \
+#  qt/locale/bitcoin_ru_RU.ts \
+#  qt/locale/bitcoin_si.ts \
+#  qt/locale/bitcoin_sk.ts \
+#  qt/locale/bitcoin_sk_SK.ts \
+#  qt/locale/bitcoin_sl_SI.ts \
+#  qt/locale/bitcoin_sn.ts \
+#  qt/locale/bitcoin_sq.ts \
+#  qt/locale/bitcoin_sr.ts \
+#  qt/locale/bitcoin_sr@latin.ts \
+#  qt/locale/bitcoin_sv.ts \
+#  qt/locale/bitcoin_szl.ts \
+#  qt/locale/bitcoin_ta.ts \
+#  qt/locale/bitcoin_ta_IN.ts \
+#  qt/locale/bitcoin_te.ts \
+#  qt/locale/bitcoin_th.ts \
+#  qt/locale/bitcoin_th_TH.ts \
+#  qt/locale/bitcoin_tr.ts \
+#  qt/locale/bitcoin_tr_TR.ts \
+#  qt/locale/bitcoin_uk.ts \
+#  qt/locale/bitcoin_uk_UA.ts \
+#  qt/locale/bitcoin_ur_PK.ts \
+#  qt/locale/bitcoin_uz@Cyrl.ts \
+#  qt/locale/bitcoin_vi.ts \
+#  qt/locale/bitcoin_vi_VN.ts \
+#  qt/locale/bitcoin_zh-Hans.ts \
+#  qt/locale/bitcoin_zh.ts \
+#  qt/locale/bitcoin_zh_CN.ts \
+#  qt/locale/bitcoin_zh_HK.ts \
+#  qt/locale/bitcoin_zh_TW.ts
 
 
 # bitcoin qt core #
-QT_FORMS_UI = \
-  qt/forms/addressbookpage.ui \
-  qt/forms/askpassphrasedialog.ui \
-  qt/forms/coincontroldialog.ui \
-  qt/forms/editaddressdialog.ui \
-  qt/forms/helpmessagedialog.ui \
-  qt/forms/intro.ui \
-  qt/forms/modaloverlay.ui \
-  qt/forms/openuridialog.ui \
-  qt/forms/optionsdialog.ui \
-  qt/forms/overviewpage.ui \
-  qt/forms/receivecoinsdialog.ui \
-  qt/forms/receiverequestdialog.ui \
-  qt/forms/debugwindow.ui \
-  qt/forms/sendcoinsdialog.ui \
-  qt/forms/sendcoinsentry.ui \
-  qt/forms/signverifymessagedialog.ui \
-  qt/forms/transactiondescdialog.ui
+#QT_FORMS_UI = \
+#  qt/forms/addressbookpage.ui \
+#  qt/forms/askpassphrasedialog.ui \
+#  qt/forms/coincontroldialog.ui \
+#  qt/forms/editaddressdialog.ui \
+#  qt/forms/helpmessagedialog.ui \
+#  qt/forms/intro.ui \
+#  qt/forms/modaloverlay.ui \
+#  qt/forms/openuridialog.ui \
+#  qt/forms/optionsdialog.ui \
+#  qt/forms/overviewpage.ui \
+#  qt/forms/receivecoinsdialog.ui \
+#  qt/forms/receiverequestdialog.ui \
+#  qt/forms/debugwindow.ui \
+#  qt/forms/sendcoinsdialog.ui \
+#  qt/forms/sendcoinsentry.ui \
+#  qt/forms/signverifymessagedialog.ui \
+#  qt/forms/transactiondescdialog.ui
 
-QT_MOC_CPP = \
-  qt/moc_addressbookpage.cpp \
-  qt/moc_addresstablemodel.cpp \
-  qt/moc_askpassphrasedialog.cpp \
-  qt/moc_bantablemodel.cpp \
-  qt/moc_bitcoinaddressvalidator.cpp \
-  qt/moc_bitcoinamountfield.cpp \
-  qt/moc_bitcoin.cpp \
-  qt/moc_bitcoingui.cpp \
-  qt/moc_bitcoinunits.cpp \
-  qt/moc_clientmodel.cpp \
-  qt/moc_coincontroldialog.cpp \
-  qt/moc_coincontroltreewidget.cpp \
-  qt/moc_csvmodelwriter.cpp \
-  qt/moc_editaddressdialog.cpp \
-  qt/moc_guiutil.cpp \
-  qt/moc_intro.cpp \
-  qt/moc_macdockiconhandler.cpp \
-  qt/moc_macnotificationhandler.cpp \
-  qt/moc_modaloverlay.cpp \
-  qt/moc_notificator.cpp \
-  qt/moc_openuridialog.cpp \
-  qt/moc_optionsdialog.cpp \
-  qt/moc_optionsmodel.cpp \
-  qt/moc_overviewpage.cpp \
-  qt/moc_peertablemodel.cpp \
-  qt/moc_paymentserver.cpp \
-  qt/moc_qvalidatedlineedit.cpp \
-  qt/moc_qvaluecombobox.cpp \
-  qt/moc_receivecoinsdialog.cpp \
-  qt/moc_receiverequestdialog.cpp \
-  qt/moc_recentrequeststablemodel.cpp \
-  qt/moc_rpcconsole.cpp \
-  qt/moc_sendcoinsdialog.cpp \
-  qt/moc_sendcoinsentry.cpp \
-  qt/moc_signverifymessagedialog.cpp \
-  qt/moc_splashscreen.cpp \
-  qt/moc_trafficgraphwidget.cpp \
-  qt/moc_transactiondesc.cpp \
-  qt/moc_transactiondescdialog.cpp \
-  qt/moc_transactionfilterproxy.cpp \
-  qt/moc_transactiontablemodel.cpp \
-  qt/moc_transactionview.cpp \
-  qt/moc_utilitydialog.cpp \
-  qt/moc_walletcontroller.cpp \
-  qt/moc_walletframe.cpp \
-  qt/moc_walletmodel.cpp \
-  qt/moc_walletview.cpp
+#QT_MOC_CPP = \
+#  qt/moc_addressbookpage.cpp \
+#  qt/moc_addresstablemodel.cpp \
+#  qt/moc_askpassphrasedialog.cpp \
+#  qt/moc_bantablemodel.cpp \
+#  qt/moc_bitcoinaddressvalidator.cpp \
+#  qt/moc_bitcoinamountfield.cpp \
+#  qt/moc_bitcoin.cpp \
+#  qt/moc_bitcoingui.cpp \
+#  qt/moc_bitcoinunits.cpp \
+#  qt/moc_clientmodel.cpp \
+#  qt/moc_coincontroldialog.cpp \
+#  qt/moc_coincontroltreewidget.cpp \
+#  qt/moc_csvmodelwriter.cpp \
+#  qt/moc_editaddressdialog.cpp \
+#  qt/moc_guiutil.cpp \
+#  qt/moc_intro.cpp \
+#  qt/moc_macdockiconhandler.cpp \
+#  qt/moc_macnotificationhandler.cpp \
+#  qt/moc_modaloverlay.cpp \
+#  qt/moc_notificator.cpp \
+#  qt/moc_openuridialog.cpp \
+#  qt/moc_optionsdialog.cpp \
+#  qt/moc_optionsmodel.cpp \
+#  qt/moc_overviewpage.cpp \
+#  qt/moc_peertablemodel.cpp \
+#  qt/moc_paymentserver.cpp \
+#  qt/moc_qvalidatedlineedit.cpp \
+#  qt/moc_qvaluecombobox.cpp \
+#  qt/moc_receivecoinsdialog.cpp \
+#  qt/moc_receiverequestdialog.cpp \
+#  qt/moc_recentrequeststablemodel.cpp \
+#  qt/moc_rpcconsole.cpp \
+#  qt/moc_sendcoinsdialog.cpp \
+#  qt/moc_sendcoinsentry.cpp \
+#  qt/moc_signverifymessagedialog.cpp \
+#  qt/moc_splashscreen.cpp \
+#  qt/moc_trafficgraphwidget.cpp \
+#  qt/moc_transactiondesc.cpp \
+#  qt/moc_transactiondescdialog.cpp \
+#  qt/moc_transactionfilterproxy.cpp \
+#  qt/moc_transactiontablemodel.cpp \
+#  qt/moc_transactionview.cpp \
+#  qt/moc_utilitydialog.cpp \
+#  qt/moc_walletcontroller.cpp \
+#  qt/moc_walletframe.cpp \
+#  qt/moc_walletmodel.cpp \
+#  qt/moc_walletview.cpp
 
-BITCOIN_MM = \
-  qt/macdockiconhandler.mm \
-  qt/macnotificationhandler.mm \
-  qt/macos_appnap.mm
+#BITCOIN_MM = \
+#  qt/macdockiconhandler.mm \
+#  qt/macnotificationhandler.mm \
+#  qt/macos_appnap.mm
 
-QT_MOC = \
-  qt/bitcoinamountfield.moc \
-  qt/intro.moc \
-  qt/overviewpage.moc \
-  qt/rpcconsole.moc
+#QT_MOC = \
+#  qt/bitcoinamountfield.moc \
+#  qt/intro.moc \
+#  qt/overviewpage.moc \
+#  qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_bitcoin.cpp
-QT_QRC = qt/bitcoin.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_bitcoin_locale.cpp
-QT_QRC_LOCALE = qt/bitcoin_locale.qrc
+#QT_QRC_CPP = qt/qrc_bitcoin.cpp
+#QT_QRC = qt/bitcoin.qrc
+#QT_QRC_LOCALE_CPP = qt/qrc_bitcoin_locale.cpp
+#QT_QRC_LOCALE = qt/bitcoin_locale.qrc
 #PROTOBUF_CC = 
-PROTOBUF_CC = qt/paymentrequest.pb.cc
+##PROTOBUF_CC = qt/paymentrequest.pb.cc
 #PROTOBUF_H = 
-PROTOBUF_H = qt/paymentrequest.pb.h
+##PROTOBUF_H = qt/paymentrequest.pb.h
 #PROTOBUF_PROTO = 
-PROTOBUF_PROTO = qt/paymentrequest.proto
-BITCOIN_QT_H = \
-  qt/addressbookpage.h \
-  qt/addresstablemodel.h \
-  qt/askpassphrasedialog.h \
-  qt/bantablemodel.h \
-  qt/bitcoinaddressvalidator.h \
-  qt/bitcoinamountfield.h \
-  qt/bitcoin.h \
-  qt/bitcoingui.h \
-  qt/bitcoinunits.h \
-  qt/clientmodel.h \
-  qt/coincontroldialog.h \
-  qt/coincontroltreewidget.h \
-  qt/csvmodelwriter.h \
-  qt/editaddressdialog.h \
-  qt/guiconstants.h \
-  qt/guiutil.h \
-  qt/intro.h \
-  qt/macdockiconhandler.h \
-  qt/macnotificationhandler.h \
-  qt/macos_appnap.h \
-  qt/modaloverlay.h \
-  qt/networkstyle.h \
-  qt/notificator.h \
-  qt/openuridialog.h \
-  qt/optionsdialog.h \
-  qt/optionsmodel.h \
-  qt/overviewpage.h \
-  qt/paymentrequestplus.h \
-  qt/paymentserver.h \
-  qt/peertablemodel.h \
-  qt/platformstyle.h \
-  qt/qvalidatedlineedit.h \
-  qt/qvaluecombobox.h \
-  qt/receivecoinsdialog.h \
-  qt/receiverequestdialog.h \
-  qt/recentrequeststablemodel.h \
-  qt/rpcconsole.h \
-  qt/sendcoinsdialog.h \
-  qt/sendcoinsentry.h \
-  qt/signverifymessagedialog.h \
-  qt/splashscreen.h \
-  qt/trafficgraphwidget.h \
-  qt/transactiondesc.h \
-  qt/transactiondescdialog.h \
-  qt/transactionfilterproxy.h \
-  qt/transactionrecord.h \
-  qt/transactiontablemodel.h \
-  qt/transactionview.h \
-  qt/utilitydialog.h \
-  qt/walletcontroller.h \
-  qt/walletframe.h \
-  qt/walletmodel.h \
-  qt/walletmodeltransaction.h \
-  qt/walletview.h \
-  qt/winshutdownmonitor.h
+##PROTOBUF_PROTO = qt/paymentrequest.proto
+#BITCOIN_QT_H = \
+#  qt/addressbookpage.h \
+#  qt/addresstablemodel.h \
+#  qt/askpassphrasedialog.h \
+#  qt/bantablemodel.h \
+#  qt/bitcoinaddressvalidator.h \
+#  qt/bitcoinamountfield.h \
+#  qt/bitcoin.h \
+#  qt/bitcoingui.h \
+#  qt/bitcoinunits.h \
+#  qt/clientmodel.h \
+#  qt/coincontroldialog.h \
+#  qt/coincontroltreewidget.h \
+#  qt/csvmodelwriter.h \
+#  qt/editaddressdialog.h \
+#  qt/guiconstants.h \
+#  qt/guiutil.h \
+#  qt/intro.h \
+#  qt/macdockiconhandler.h \
+#  qt/macnotificationhandler.h \
+#  qt/macos_appnap.h \
+#  qt/modaloverlay.h \
+#  qt/networkstyle.h \
+#  qt/notificator.h \
+#  qt/openuridialog.h \
+#  qt/optionsdialog.h \
+#  qt/optionsmodel.h \
+#  qt/overviewpage.h \
+#  qt/paymentrequestplus.h \
+#  qt/paymentserver.h \
+#  qt/peertablemodel.h \
+#  qt/platformstyle.h \
+#  qt/qvalidatedlineedit.h \
+#  qt/qvaluecombobox.h \
+#  qt/receivecoinsdialog.h \
+#  qt/receiverequestdialog.h \
+#  qt/recentrequeststablemodel.h \
+#  qt/rpcconsole.h \
+#  qt/sendcoinsdialog.h \
+#  qt/sendcoinsentry.h \
+#  qt/signverifymessagedialog.h \
+#  qt/splashscreen.h \
+#  qt/trafficgraphwidget.h \
+#  qt/transactiondesc.h \
+#  qt/transactiondescdialog.h \
+#  qt/transactionfilterproxy.h \
+#  qt/transactionrecord.h \
+#  qt/transactiontablemodel.h \
+#  qt/transactionview.h \
+#  qt/utilitydialog.h \
+#  qt/walletcontroller.h \
+#  qt/walletframe.h \
+#  qt/walletmodel.h \
+#  qt/walletmodeltransaction.h \
+#  qt/walletview.h \
+#  qt/winshutdownmonitor.h
 
-RES_ICONS = \
-  qt/res/icons/add.png \
-  qt/res/icons/address-book.png \
-  qt/res/icons/about.png \
-  qt/res/icons/about_qt.png \
-  qt/res/icons/bitcoin.ico \
-  qt/res/icons/bitcoin_testnet.ico \
-  qt/res/icons/bitcoin.png \
-  qt/res/icons/chevron.png \
-  qt/res/icons/clock1.png \
-  qt/res/icons/clock2.png \
-  qt/res/icons/clock3.png \
-  qt/res/icons/clock4.png \
-  qt/res/icons/clock5.png \
-  qt/res/icons/configure.png \
-  qt/res/icons/connect0.png \
-  qt/res/icons/connect1.png \
-  qt/res/icons/connect2.png \
-  qt/res/icons/connect3.png \
-  qt/res/icons/connect4.png \
-  qt/res/icons/debugwindow.png \
-  qt/res/icons/edit.png \
-  qt/res/icons/editcopy.png \
-  qt/res/icons/editpaste.png \
-  qt/res/icons/export.png \
-  qt/res/icons/eye.png \
-  qt/res/icons/eye_minus.png \
-  qt/res/icons/eye_plus.png \
-  qt/res/icons/filesave.png \
-  qt/res/icons/fontbigger.png \
-  qt/res/icons/fontsmaller.png \
-  qt/res/icons/hd_disabled.png \
-  qt/res/icons/hd_enabled.png \
-  qt/res/icons/history.png \
-  qt/res/icons/info.png \
-  qt/res/icons/key.png \
-  qt/res/icons/walocoin_splash.png \
-  qt/res/icons/lock_closed.png \
-  qt/res/icons/lock_open.png \
-  qt/res/icons/network_disabled.png \
-  qt/res/icons/open.png \
-  qt/res/icons/overview.png \
-  qt/res/icons/proxy.png \
-  qt/res/icons/quit.png \
-  qt/res/icons/receive.png \
-  qt/res/icons/remove.png \
-  qt/res/icons/send.png \
-  qt/res/icons/synced.png \
-  qt/res/icons/transaction0.png \
-  qt/res/icons/transaction2.png \
-  qt/res/icons/transaction_abandoned.png \
-  qt/res/icons/transaction_conflicted.png \
-  qt/res/icons/tx_inout.png \
-  qt/res/icons/tx_input.png \
-  qt/res/icons/tx_output.png \
-  qt/res/icons/tx_mined.png \
-  qt/res/icons/warning.png \
-  qt/res/icons/verify.png
+#RES_ICONS = \
+#  qt/res/icons/add.png \
+#  qt/res/icons/address-book.png \
+#  qt/res/icons/about.png \
+#  qt/res/icons/about_qt.png \
+#  qt/res/icons/bitcoin.ico \
+#  qt/res/icons/bitcoin_testnet.ico \
+#  qt/res/icons/bitcoin.png \
+#  qt/res/icons/chevron.png \
+#  qt/res/icons/clock1.png \
+#  qt/res/icons/clock2.png \
+#  qt/res/icons/clock3.png \
+#  qt/res/icons/clock4.png \
+#  qt/res/icons/clock5.png \
+#  qt/res/icons/configure.png \
+#  qt/res/icons/connect0.png \
+#  qt/res/icons/connect1.png \
+#  qt/res/icons/connect2.png \
+#  qt/res/icons/connect3.png \
+#  qt/res/icons/connect4.png \
+#  qt/res/icons/debugwindow.png \
+#  qt/res/icons/edit.png \
+#  qt/res/icons/editcopy.png \
+#  qt/res/icons/editpaste.png \
+#  qt/res/icons/export.png \
+#  qt/res/icons/eye.png \
+#  qt/res/icons/eye_minus.png \
+#  qt/res/icons/eye_plus.png \
+#  qt/res/icons/filesave.png \
+#  qt/res/icons/fontbigger.png \
+#  qt/res/icons/fontsmaller.png \
+#  qt/res/icons/hd_disabled.png \
+#  qt/res/icons/hd_enabled.png \
+#  qt/res/icons/history.png \
+#  qt/res/icons/info.png \
+#  qt/res/icons/key.png \
+#  qt/res/icons/walocoin_splash.png \
+#  qt/res/icons/lock_closed.png \
+#  qt/res/icons/lock_open.png \
+#  qt/res/icons/network_disabled.png \
+#  qt/res/icons/open.png \
+#  qt/res/icons/overview.png \
+#  qt/res/icons/proxy.png \
+#  qt/res/icons/quit.png \
+#  qt/res/icons/receive.png \
+#  qt/res/icons/remove.png \
+#  qt/res/icons/send.png \
+#  qt/res/icons/synced.png \
+#  qt/res/icons/transaction0.png \
+#  qt/res/icons/transaction2.png \
+#  qt/res/icons/transaction_abandoned.png \
+#  qt/res/icons/transaction_conflicted.png \
+#  qt/res/icons/tx_inout.png \
+#  qt/res/icons/tx_input.png \
+#  qt/res/icons/tx_output.png \
+#  qt/res/icons/tx_mined.png \
+#  qt/res/icons/warning.png \
+#  qt/res/icons/verify.png
 
-BITCOIN_QT_BASE_CPP = \
-  qt/bantablemodel.cpp \
-  qt/bitcoin.cpp \
-  qt/bitcoinaddressvalidator.cpp \
-  qt/bitcoinamountfield.cpp \
-  qt/bitcoingui.cpp \
-  qt/bitcoinunits.cpp \
-  qt/clientmodel.cpp \
-  qt/csvmodelwriter.cpp \
-  qt/guiutil.cpp \
-  qt/intro.cpp \
-  qt/modaloverlay.cpp \
-  qt/networkstyle.cpp \
-  qt/notificator.cpp \
-  qt/optionsdialog.cpp \
-  qt/optionsmodel.cpp \
-  qt/peertablemodel.cpp \
-  qt/platformstyle.cpp \
-  qt/qvalidatedlineedit.cpp \
-  qt/qvaluecombobox.cpp \
-  qt/rpcconsole.cpp \
-  qt/splashscreen.cpp \
-  qt/trafficgraphwidget.cpp \
-  qt/utilitydialog.cpp
+#BITCOIN_QT_BASE_CPP = \
+#  qt/bantablemodel.cpp \
+#  qt/bitcoin.cpp \
+#  qt/bitcoinaddressvalidator.cpp \
+#  qt/bitcoinamountfield.cpp \
+#  qt/bitcoingui.cpp \
+#  qt/bitcoinunits.cpp \
+#  qt/clientmodel.cpp \
+#  qt/csvmodelwriter.cpp \
+#  qt/guiutil.cpp \
+#  qt/intro.cpp \
+#  qt/modaloverlay.cpp \
+#  qt/networkstyle.cpp \
+#  qt/notificator.cpp \
+#  qt/optionsdialog.cpp \
+#  qt/optionsmodel.cpp \
+#  qt/peertablemodel.cpp \
+#  qt/platformstyle.cpp \
+#  qt/qvalidatedlineedit.cpp \
+#  qt/qvaluecombobox.cpp \
+#  qt/rpcconsole.cpp \
+#  qt/splashscreen.cpp \
+#  qt/trafficgraphwidget.cpp \
+#  qt/utilitydialog.cpp
 
-BITCOIN_QT_WINDOWS_CPP = qt/winshutdownmonitor.cpp
-BITCOIN_QT_WALLET_CPP = \
-  qt/addressbookpage.cpp \
-  qt/addresstablemodel.cpp \
-  qt/askpassphrasedialog.cpp \
-  qt/coincontroldialog.cpp \
-  qt/coincontroltreewidget.cpp \
-  qt/editaddressdialog.cpp \
-  qt/openuridialog.cpp \
-  qt/overviewpage.cpp \
-  qt/paymentserver.cpp \
-  qt/receivecoinsdialog.cpp \
-  qt/receiverequestdialog.cpp \
-  qt/recentrequeststablemodel.cpp \
-  qt/sendcoinsdialog.cpp \
-  qt/sendcoinsentry.cpp \
-  qt/signverifymessagedialog.cpp \
-  qt/transactiondesc.cpp \
-  qt/transactiondescdialog.cpp \
-  qt/transactionfilterproxy.cpp \
-  qt/transactionrecord.cpp \
-  qt/transactiontablemodel.cpp \
-  qt/transactionview.cpp \
-  qt/walletcontroller.cpp \
-  qt/walletframe.cpp \
-  qt/walletmodel.cpp \
-  qt/walletmodeltransaction.cpp \
-  qt/walletview.cpp
+#BITCOIN_QT_WINDOWS_CPP = qt/winshutdownmonitor.cpp
+#BITCOIN_QT_WALLET_CPP = \
+#  qt/addressbookpage.cpp \
+#  qt/addresstablemodel.cpp \
+#  qt/askpassphrasedialog.cpp \
+#  qt/coincontroldialog.cpp \
+#  qt/coincontroltreewidget.cpp \
+#  qt/editaddressdialog.cpp \
+#  qt/openuridialog.cpp \
+#  qt/overviewpage.cpp \
+#  qt/paymentserver.cpp \
+#  qt/receivecoinsdialog.cpp \
+#  qt/receiverequestdialog.cpp \
+#  qt/recentrequeststablemodel.cpp \
+#  qt/sendcoinsdialog.cpp \
+#  qt/sendcoinsentry.cpp \
+#  qt/signverifymessagedialog.cpp \
+#  qt/transactiondesc.cpp \
+#  qt/transactiondescdialog.cpp \
+#  qt/transactionfilterproxy.cpp \
+#  qt/transactionrecord.cpp \
+#  qt/transactiontablemodel.cpp \
+#  qt/transactionview.cpp \
+#  qt/walletcontroller.cpp \
+#  qt/walletframe.cpp \
+#  qt/walletmodel.cpp \
+#  qt/walletmodeltransaction.cpp \
+#  qt/walletview.cpp
 
-BITCOIN_QT_WALLET_BIP70_CPP = \
-  qt/paymentrequestplus.cpp
+#BITCOIN_QT_WALLET_BIP70_CPP = \
+#  qt/paymentrequestplus.cpp
 
-BITCOIN_QT_CPP = $(BITCOIN_QT_BASE_CPP) \
-	$(am__append_42) $(am__append_43) \
-	$(am__append_44)
-RES_IMAGES = 
-RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
-BITCOIN_RC = qt/res/bitcoin-qt-res.rc
-BITCOIN_QT_INCLUDES = -DQT_NO_KEYWORDS
-qt_libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
-  $(QT_INCLUDES) $(QT_DBUS_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
+#BITCOIN_QT_CPP = $(BITCOIN_QT_BASE_CPP) \
+#	$(am__append_42) $(am__append_43) \
+#	$(am__append_44)
+#RES_IMAGES = 
+#RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
+#BITCOIN_RC = qt/res/bitcoin-qt-res.rc
+#BITCOIN_QT_INCLUDES = -DQT_NO_KEYWORDS
+#qt_libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+#  $(QT_INCLUDES) $(QT_DBUS_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_libbitcoinqt_a_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
-qt_libbitcoinqt_a_OBJCXXFLAGS = $(AM_OBJCXXFLAGS) $(QT_PIE_FLAGS)
-qt_libbitcoinqt_a_SOURCES = $(BITCOIN_QT_CPP) \
-	$(BITCOIN_QT_H) $(QT_FORMS_UI) $(QT_QRC) \
-	$(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) \
-	$(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) \
-	$(am__append_45)
-nodist_qt_libbitcoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
-  $(PROTOBUF_H) $(QT_QRC_CPP) $(QT_QRC_LOCALE_CPP)
+#qt_libbitcoinqt_a_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+#qt_libbitcoinqt_a_OBJCXXFLAGS = $(AM_OBJCXXFLAGS) $(QT_PIE_FLAGS)
+#qt_libbitcoinqt_a_SOURCES = $(BITCOIN_QT_CPP) \
+#	$(BITCOIN_QT_H) $(QT_FORMS_UI) $(QT_QRC) \
+#	$(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) \
+#	$(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) \
+#	$(am__append_45)
+#nodist_qt_libbitcoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
+#  $(PROTOBUF_H) $(QT_QRC_CPP) $(QT_QRC_LOCALE_CPP)
 
 
 # forms/foo.h -> forms/ui_foo.h
-QT_FORMS_H = $(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))
+#QT_FORMS_H = $(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))
 
 # bitcoin-qt binary #
-qt_walocoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
-  $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
+#qt_walocoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+#  $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_walocoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
-qt_walocoin_qt_SOURCES = qt/main.cpp $(am__append_46)
-qt_walocoin_qt_LDADD = qt/libbitcoinqt.a \
-	$(LIBBITCOIN_SERVER) $(am__append_47) \
-	$(am__append_48) $(LIBBITCOIN_CLI) \
-	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) $(LIBBITCOIN_CRYPTO) \
-	$(LIBUNIVALUE) $(LIBLEVELDB) \
-	$(LIBLEVELDB_SSE42) $(LIBMEMENV) $(BOOST_LIBS) \
-	$(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) \
-	$(PROTOBUF_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) \
-	$(LIBSECP256K1) $(EVENT_PTHREADS_LIBS) \
-	$(EVENT_LIBS) $(am__append_49) \
-	$(am__append_50) $(CRYPTO_LIBS)
-qt_walocoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_walocoin_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
+#qt_walocoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+#qt_walocoin_qt_SOURCES = qt/main.cpp $(am__append_46)
+#qt_walocoin_qt_LDADD = qt/libbitcoinqt.a \
+#	$(LIBBITCOIN_SERVER) $(am__append_47) \
+#	$(am__append_48) $(LIBBITCOIN_CLI) \
+#	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+#	$(LIBBITCOIN_CONSENSUS) $(LIBBITCOIN_CRYPTO) \
+#	$(LIBUNIVALUE) $(LIBLEVELDB) \
+#	$(LIBLEVELDB_SSE42) $(LIBMEMENV) $(BOOST_LIBS) \
+#	$(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) \
+#	$(PROTOBUF_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) \
+#	$(LIBSECP256K1) $(EVENT_PTHREADS_LIBS) \
+#	$(EVENT_LIBS) $(am__append_49) \
+#	$(am__append_50) $(CRYPTO_LIBS)
+#qt_walocoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+#qt_walocoin_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
-QT_QM = $(QT_TS:.ts=.qm)
-CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_bitcoin_locale.qrc
-TEST_QT_MOC_CPP = qt/test/moc_apptests.cpp \
-	qt/test/moc_compattests.cpp \
-	qt/test/moc_rpcnestedtests.cpp \
-	qt/test/moc_uritests.cpp \
-	$(am__append_54) $(am__append_55)
-TEST_QT_H = \
-  qt/test/addressbooktests.h \
-  qt/test/apptests.h \
-  qt/test/compattests.h \
-  qt/test/rpcnestedtests.h \
-  qt/test/uritests.h \
-  qt/test/util.h \
-  qt/test/paymentrequestdata.h \
-  qt/test/paymentservertests.h \
-  qt/test/wallettests.h
+#QT_QM = $(QT_TS:.ts=.qm)
+#CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_bitcoin_locale.qrc
+#TEST_QT_MOC_CPP = qt/test/moc_apptests.cpp \
+#	qt/test/moc_compattests.cpp \
+#	qt/test/moc_rpcnestedtests.cpp \
+#	qt/test/moc_uritests.cpp \
+#	$(am__append_54) $(am__append_55)
+#TEST_QT_H = \
+#  qt/test/addressbooktests.h \
+#  qt/test/apptests.h \
+#  qt/test/compattests.h \
+#  qt/test/rpcnestedtests.h \
+#  qt/test/uritests.h \
+#  qt/test/util.h \
+#  qt/test/paymentrequestdata.h \
+#  qt/test/paymentservertests.h \
+#  qt/test/wallettests.h
 
-TEST_BITCOIN_CPP = \
-  test/test_bitcoin.cpp
+#TEST_BITCOIN_CPP = \
+#  test/test_bitcoin.cpp
 
-TEST_BITCOIN_H = \
-  test/test_bitcoin.h
+#TEST_BITCOIN_H = \
+#  test/test_bitcoin.h
 
-qt_test_test_walocoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
-  $(QT_INCLUDES) $(QT_TEST_INCLUDES) $(PROTOBUF_CFLAGS)
+#qt_test_test_walocoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+#  $(QT_INCLUDES) $(QT_TEST_INCLUDES) $(PROTOBUF_CFLAGS)
 
-qt_test_test_walocoin_qt_SOURCES =  \
-	qt/test/apptests.cpp \
-	qt/test/compattests.cpp \
-	qt/test/rpcnestedtests.cpp \
-	qt/test/test_main.cpp \
-	qt/test/uritests.cpp qt/test/util.cpp \
-	$(TEST_QT_H) $(TEST_BITCOIN_CPP) \
-	$(TEST_BITCOIN_H) $(am__append_56) \
-	$(am__append_57)
-nodist_qt_test_test_walocoin_qt_SOURCES = $(TEST_QT_MOC_CPP)
-qt_test_test_walocoin_qt_LDADD =  \
-	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
-	$(am__append_58) $(am__append_59) \
-	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
-	$(LIBBITCOIN_UTIL) \
-	$(LIBBITCOIN_CONSENSUS) \
-	$(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) \
-	$(LIBLEVELDB) $(LIBLEVELDB_SSE42) \
-	$(LIBMEMENV) $(BOOST_LIBS) \
-	$(QT_DBUS_LIBS) $(QT_TEST_LIBS) \
-	$(QT_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) \
-	$(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) \
-	$(MINIUPNPC_LIBS) $(LIBSECP256K1) \
-	$(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_test_test_walocoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_test_test_walocoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
-CLEAN_BITCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
+#qt_test_test_walocoin_qt_SOURCES =  \
+#	qt/test/apptests.cpp \
+#	qt/test/compattests.cpp \
+#	qt/test/rpcnestedtests.cpp \
+#	qt/test/test_main.cpp \
+#	qt/test/uritests.cpp qt/test/util.cpp \
+#	$(TEST_QT_H) $(TEST_BITCOIN_CPP) \
+#	$(TEST_BITCOIN_H) $(am__append_56) \
+#	$(am__append_57)
+#nodist_qt_test_test_walocoin_qt_SOURCES = $(TEST_QT_MOC_CPP)
+#qt_test_test_walocoin_qt_LDADD =  \
+#	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
+#	$(am__append_58) $(am__append_59) \
+#	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
+#	$(LIBBITCOIN_UTIL) \
+#	$(LIBBITCOIN_CONSENSUS) \
+#	$(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) \
+#	$(LIBLEVELDB) $(LIBLEVELDB_SSE42) \
+#	$(LIBMEMENV) $(BOOST_LIBS) \
+#	$(QT_DBUS_LIBS) $(QT_TEST_LIBS) \
+#	$(QT_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) \
+#	$(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) \
+#	$(MINIUPNPC_LIBS) $(LIBSECP256K1) \
+#	$(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+#qt_test_test_walocoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+#qt_test_test_walocoin_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+#CLEAN_BITCOIN_QT_TEST = $(TEST_QT_MOC_CPP) qt/test/*.gcda qt/test/*.gcno
 all: all-recursive
 
 .SUFFIXES:
@@ -12911,7 +12911,7 @@ distdir: $(DISTFILES)
 	      || exit 1; \
 	  fi; \
 	done
-#check-local:
+check-local:
 check-am: all-am
 	$(MAKE) $(AM_MAKEFLAGS) check-TESTS check-local
 check: check-recursive
@@ -13148,45 +13148,45 @@ check-security: $(bin_PROGRAMS)
 	@echo "Checking binary security..."
 	$(AM_V_at) READELF=$(READELF) OBJDUMP=$(OBJDUMP) $(top_srcdir)/contrib/devtools/security-check.py $(bin_PROGRAMS)
 
-%.pb.cc %.pb.h: %.proto
-	@test -f $(PROTOC)
-	$(AM_V_GEN) $(PROTOC) --cpp_out=$(@D) --proto_path=$(<D) $<
+#%.pb.cc %.pb.h: %.proto
+#	@test -f $(PROTOC)
+#	$(AM_V_GEN) $(PROTOC) --cpp_out=$(@D) --proto_path=$(<D) $<
 
-$(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
+#$(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 
+##bitcoin_test: $(TEST_BINARY)
+##bitcoin_test: $(TEST_BINARY) $(BENCH_BINARY)
 #bitcoin_test: $(TEST_BINARY)
-#bitcoin_test: $(TEST_BINARY) $(BENCH_BINARY)
-bitcoin_test: $(TEST_BINARY)
 
-bitcoin_test_check: $(TEST_BINARY) FORCE
-	$(MAKE) check-TESTS TESTS=$^
+#bitcoin_test_check: $(TEST_BINARY) FORCE
+#	$(MAKE) check-TESTS TESTS=$^
 
-bitcoin_test_clean : FORCE
-	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_walocoin_OBJECTS) $(TEST_BINARY)
+#bitcoin_test_clean : FORCE
+#	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_walocoin_OBJECTS) $(TEST_BINARY)
 
-check-local: $(BITCOIN_TESTS:.cpp=.cpp.test)
-	@echo "Running test/util/bitcoin-util-test.py..."
-	$(PYTHON) $(top_builddir)/test/util/bitcoin-util-test.py
-	@echo "Running test/util/rpcauth-test.py..."
-	$(PYTHON) $(top_builddir)/test/util/rpcauth-test.py
-#	@echo "Running bench/bench_walocoin -evals=1 -scaling=0..."
-#	$(BENCH_BINARY) -evals=1 -scaling=0 > /dev/null
-	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C secp256k1 check
-	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C univalue check
+#check-local: $(BITCOIN_TESTS:.cpp=.cpp.test)
+#	@echo "Running test/util/bitcoin-util-test.py..."
+#	$(PYTHON) $(top_builddir)/test/util/bitcoin-util-test.py
+#	@echo "Running test/util/rpcauth-test.py..."
+#	$(PYTHON) $(top_builddir)/test/util/rpcauth-test.py
+##	@echo "Running bench/bench_walocoin -evals=1 -scaling=0..."
+##	$(BENCH_BINARY) -evals=1 -scaling=0 > /dev/null
+#	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C secp256k1 check
+#	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C univalue check
 
-%.cpp.test: %.cpp
-	@echo Running tests: `cat $< | grep -E "(BOOST_FIXTURE_TEST_SUITE\\(|BOOST_AUTO_TEST_SUITE\\()" | cut -d '(' -f 2 | cut -d ',' -f 1 | cut -d ')' -f 1` from $<
-	$(AM_V_at)$(TEST_BINARY) -l test_suite -t "`cat $< | grep -E "(BOOST_FIXTURE_TEST_SUITE\\(|BOOST_AUTO_TEST_SUITE\\()" | cut -d '(' -f 2 | cut -d ',' -f 1 | cut -d ')' -f 1`" > $<.log 2>&1 || (cat $<.log && false)
+#%.cpp.test: %.cpp
+#	@echo Running tests: `cat $< | grep -E "(BOOST_FIXTURE_TEST_SUITE\\(|BOOST_AUTO_TEST_SUITE\\()" | cut -d '(' -f 2 | cut -d ',' -f 1 | cut -d ')' -f 1` from $<
+#	$(AM_V_at)$(TEST_BINARY) -l test_suite -t "`cat $< | grep -E "(BOOST_FIXTURE_TEST_SUITE\\(|BOOST_AUTO_TEST_SUITE\\()" | cut -d '(' -f 2 | cut -d ',' -f 1 | cut -d ')' -f 1`" > $<.log 2>&1 || (cat $<.log && false)
 
-%.json.h: %.json
-	@$(MKDIR_P) $(@D)
-	@{ \
-	 echo "namespace json_tests{" && \
-	 echo "static unsigned const char $(*F)[] = {" && \
-	 $(HEXDUMP) -v -e '8/1 "0x%02x, "' -e '"\n"' $< | $(SED) -e 's/0x  ,//g' && \
-	 echo "};};"; \
-	} > "$@.new" && mv -f "$@.new" "$@"
-	@echo "Generated $@"
+#%.json.h: %.json
+#	@$(MKDIR_P) $(@D)
+#	@{ \
+#	 echo "namespace json_tests{" && \
+#	 echo "static unsigned const char $(*F)[] = {" && \
+#	 $(HEXDUMP) -v -e '8/1 "0x%02x, "' -e '"\n"' $< | $(SED) -e 's/0x  ,//g' && \
+#	 echo "};};"; \
+#	} > "$@.new" && mv -f "$@.new" "$@"
+#	@echo "Generated $@"
 
 #bench/checkblock.cpp: bench/data/block413567.raw.h
 
@@ -13209,66 +13209,66 @@ check-local: $(BITCOIN_TESTS:.cpp=.cpp.test)
 
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
-$(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_walocoin_qt_OBJECTS) : | $(QT_MOC)
+#$(QT_MOC): $(QT_FORMS_H)
+#$(qt_libbitcoinqt_a_OBJECTS) $(qt_walocoin_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
-$(QT_MOC): $(PROTOBUF_H)
-$(QT_MOC_CPP): $(PROTOBUF_H)
+#$(QT_MOC): $(PROTOBUF_H)
+#$(QT_MOC_CPP): $(PROTOBUF_H)
 
-SECONDARY: $(QT_QM)
+#SECONDARY: $(QT_QM)
 
-$(srcdir)/qt/bitcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_consensus_a_SOURCES) $(libbitcoin_util_a_SOURCES)
-	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
-	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) COPYRIGHT_HOLDERS="$(COPYRIGHT_HOLDERS)" $(PYTHON) ../share/qt/extract_strings_qt.py $^
+#$(srcdir)/qt/bitcoinstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_consensus_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+#	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
+#	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) COPYRIGHT_HOLDERS="$(COPYRIGHT_HOLDERS)" $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: $(srcdir)/qt/bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/bitcoin.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
-	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/bitcoin_en.ts
+#translate: $(srcdir)/qt/bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/bitcoin.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+#	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/bitcoin_en.ts
 
-$(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
-	@test -f $(RCC)
-	@cp -f $< $(@D)/temp_$(<F)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin_locale $(@D)/temp_$(<F) | \
-	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
-	@rm $(@D)/temp_$(<F)
+#$(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
+#	@test -f $(RCC)
+#	@cp -f $< $(@D)/temp_$(<F)
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin_locale $(@D)/temp_$(<F) | \
+#	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
+#	@rm $(@D)/temp_$(<F)
 
-$(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(PROTOBUF_H)
-	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin $< | \
-	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
+#$(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(PROTOBUF_H)
+#	@test -f $(RCC)
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin $< | \
+#	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-bitcoin_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_walocoin_qt_OBJECTS) qt/walocoin-qt$(EXEEXT) $(LIBBITCOINQT)
+#bitcoin_qt_clean: FORCE
+#	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_walocoin_qt_OBJECTS) qt/walocoin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-bitcoin_qt : qt/walocoin-qt$(EXEEXT)
+#bitcoin_qt : qt/walocoin-qt$(EXEEXT)
 
-ui_%.h: %.ui
-	@test -f $(UIC)
-	@$(MKDIR_P) $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(UIC) -o $@ $< || (echo "Error creating $@"; false)
+#ui_%.h: %.ui
+#	@test -f $(UIC)
+#	@$(MKDIR_P) $(@D)
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(UIC) -o $@ $< || (echo "Error creating $@"; false)
 
-%.moc: %.cpp
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(MOC) $(DEFAULT_INCLUDES) $(QT_INCLUDES) $(MOC_DEFS) $< | \
-	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
+#%.moc: %.cpp
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(MOC) $(DEFAULT_INCLUDES) $(QT_INCLUDES) $(MOC_DEFS) $< | \
+#	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-moc_%.cpp: %.h
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(MOC) $(DEFAULT_INCLUDES) $(QT_INCLUDES) $(MOC_DEFS) $< | \
-	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
+#moc_%.cpp: %.h
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(MOC) $(DEFAULT_INCLUDES) $(QT_INCLUDES) $(MOC_DEFS) $< | \
+#	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-%.qm: %.ts
-	@test -f $(LRELEASE)
-	@$(MKDIR_P) $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LRELEASE) -silent $< -qm $@
+#%.qm: %.ts
+#	@test -f $(LRELEASE)
+#	@$(MKDIR_P) $(@D)
+#	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LRELEASE) -silent $< -qm $@
 
-test_bitcoin_qt : qt/test/test_walocoin-qt$(EXEEXT)
+#test_bitcoin_qt : qt/test/test_walocoin-qt$(EXEEXT)
 
-test_bitcoin_qt_check : qt/test/test_walocoin-qt$(EXEEXT) FORCE
-	$(MAKE) check-TESTS TESTS=$^
+#test_bitcoin_qt_check : qt/test/test_walocoin-qt$(EXEEXT) FORCE
+#	$(MAKE) check-TESTS TESTS=$^
 
-test_bitcoin_qt_clean: FORCE
-	rm -f $(CLEAN_BITCOIN_QT_TEST) $(qt_test_test_walocoin_qt_OBJECTS)
+#test_bitcoin_qt_clean: FORCE
+#	rm -f $(CLEAN_BITCOIN_QT_TEST) $(qt_test_test_walocoin_qt_OBJECTS)
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

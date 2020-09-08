@@ -42,7 +42,7 @@
 #define ENABLE_AVX2 1
 
 /* Define if BIP70 support should be compiled in */
-#define ENABLE_BIP70 1
+/* #undef ENABLE_BIP70 */
 
 /* Define this symbol to build code that uses SHA-NI intrinsics */
 #define ENABLE_SHANI 1
@@ -75,7 +75,7 @@
 #define HAVE_BOOST_THREAD /**/
 
 /* define if the Boost::Unit_Test_Framework library is available */
-#define HAVE_BOOST_UNIT_TEST_FRAMEWORK /**/
+/* #undef HAVE_BOOST_UNIT_TEST_FRAMEWORK */
 
 /* Define to 1 if you have the <byteswap.h> header file. */
 #define HAVE_BYTESWAP_H 1
@@ -413,10 +413,10 @@
 /* #undef USE_COVERAGE */
 
 /* Define if dbus support should be compiled in */
-#define USE_DBUS 1
+/* #undef USE_DBUS */
 
 /* Define if QR support should be compiled in */
-#define USE_QRCODE 1
+/* #undef USE_QRCODE */
 
 /* Define if SSE2 support should be compiled in */
 /* #undef USE_SSE2 */
