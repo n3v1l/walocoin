@@ -42,7 +42,7 @@
 #define ENABLE_AVX2 1
 
 /* Define if BIP70 support should be compiled in */
-/* #undef ENABLE_BIP70 */
+#define ENABLE_BIP70 1
 
 /* Define this symbol to build code that uses SHA-NI intrinsics */
 #define ENABLE_SHANI 1
@@ -413,10 +413,10 @@
 /* #undef USE_COVERAGE */
 
 /* Define if dbus support should be compiled in */
-/* #undef USE_DBUS */
+#define USE_DBUS 1
 
 /* Define if QR support should be compiled in */
-/* #undef USE_QRCODE */
+#define USE_QRCODE 1
 
 /* Define if SSE2 support should be compiled in */
 /* #undef USE_SSE2 */

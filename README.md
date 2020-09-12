@@ -1,7 +1,7 @@
 # Qué es WaloCoin?
 
 WaloCoin es una criptomoneda creada para el uso educacional para las comunidades:
-L4t1nHTB, Arquitecto TI, HackSpace, Level[0]Sec. Orientada inicialmente para Q4 H4ck1ng S3ss10ns.
+L4t1nHTB, Arquitecto TI, HackSpace, OpenHack, Level[0]Sec. Orientada inicialmente para Q4 H4ck1ng S3ss10ns.
 
 Concebida para que los miembros de las comunidades ingresen en el mundo de las criptomonedas sin miedo a perder dinero.
 Fue creada para la comunidad y la idea es que se expanda a todo Latinoamerica con ese fin. 
