@@ -3,7 +3,7 @@
 Se debe usar un minero de otra criptomoneda que está habilitada para el uso de lo necesario.
 Paso previo, debes haber creado un nodo y tener billetera, ya que los datos necesarios son:
 
-1. IP del nodo. El puerto necesario es el 9332/TCP del protocolo RPC
+1. IP del nodo. El puerto necesario es el 9772/TCP del protocolo RPC
 
 2. Nombre de usuario: Definido en el archivo walocoin.conf en la directiva **rpcuser=**
 
@@ -23,7 +23,7 @@ cd cpuminer-opt-sugarchain && \
 
 Luego se debe ejecutar de la siguiente forma:
 ```bash
-./cpuminer -a scrypt -o http://IP_DEL_NODO:9332 -u ususario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
+./cpuminer -a scrypt -o http://IP_DEL_NODO:9772 -u ususario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
 ```
 
 ## Windows 
@@ -32,7 +32,7 @@ Descargar el minero desde la siguiente URL  https://github.com/cryptozeny/cpumin
 
 Luego se debe ejecutar de la siguiente forma:
 ```cmd
-cpuminer.exe -a scrypt -o http://IP_DEL_NODO:9332 -u ususario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
+cpuminer.exe -a scrypt -o http://IP_DEL_NODO:97722 -u ususario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
 ```
 
 
