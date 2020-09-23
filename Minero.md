@@ -32,7 +32,7 @@ Descargar el minero desde la siguiente URL  https://github.com/cryptozeny/cpumin
 
 Luego se debe ejecutar de la siguiente forma:
 ```cmd
-cpuminer.exe -a scrypt -o http://IP_DEL_NODO:97722 -u ususario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
+cpuminer.exe -a scrypt -o http://IP_DEL_NODO:9772 -u usuario_del_walocoin.conf  -p password_del_walocoin.conf --coinbase-addr=TU_BILLETERA_BECH32 -D --no-stratum --no-longpoll
 ```
 
 
