@@ -24,13 +24,13 @@
 #define CLIENT_VERSION_MINOR 18
 
 /* Build revision */
-#define CLIENT_VERSION_REVISION 2
+#define CLIENT_VERSION_REVISION 3
 
 /* Copyright holder(s) before %s replacement */
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The WaloCoin Core Forker by n3v1l"
+#define COPYRIGHT_HOLDERS_FINAL "The WaloCoin Core developers"
 
 /* Replacement for %s in copyright holders string */
 #define COPYRIGHT_HOLDERS_SUBSTITUTION "WaloCoin Core"
@@ -42,7 +42,7 @@
 #define ENABLE_AVX2 1
 
 /* Define if BIP70 support should be compiled in */
-#define ENABLE_BIP70 1
+/* #undef ENABLE_BIP70 */
 
 /* Define this symbol to build code that uses SHA-NI intrinsics */
 #define ENABLE_SHANI 1
@@ -364,13 +364,13 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://github.com/walocoin-project/walocoin/issues"
+#define PACKAGE_BUGREPORT "https://github.com/n3v1l/walocoin/issues"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "WaloCoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "WaloCoin Core 0.18.2"
+#define PACKAGE_STRING "WaloCoin Core 0.18.3"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "walocoin"
@@ -379,7 +379,7 @@
 #define PACKAGE_URL "https://walocoin.org/"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "0.18.2"
+#define PACKAGE_VERSION "0.18.3"
 
 /* Define to necessary symbol if this constant uses a non-standard name on
    your system. */
@@ -413,10 +413,10 @@
 /* #undef USE_COVERAGE */
 
 /* Define if dbus support should be compiled in */
-#define USE_DBUS 1
+/* #undef USE_DBUS */
 
 /* Define if QR support should be compiled in */
-#define USE_QRCODE 1
+/* #undef USE_QRCODE */
 
 /* Define if SSE2 support should be compiled in */
 /* #undef USE_SSE2 */

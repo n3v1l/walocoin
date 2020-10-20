@@ -17,13 +17,13 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>0.18.2.0, Copyright © 2009-2020 The WaloCoin Core Forker by n3v1l</string>
+  <string>0.18.3.0, Copyright © 2009-2020 The WaloCoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
-  <string>0.18.2</string>
+  <string>0.18.3</string>
 
   <key>CFBundleVersion</key>
-  <string>0.18.2</string>
+  <string>0.18.3</string>
 
   <key>CFBundleSignature</key>
   <string>????</string>
