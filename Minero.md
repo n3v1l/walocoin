@@ -37,14 +37,25 @@ cpuminer.exe -a scrypt -o http://IP_DEL_NODO:9772 -u usuario_del_walocoin.conf  
 
 
 
-# Minado con GPU 
-### WIP - Necesitamos tu ayuda:
-El minero por GPU debe cumplir 3 condiciones:
+# Minado en Pool con GPU y CPU
+### Puedes ahora minar con tu CPU y GPU en el pool de Walocoin
 
-1. Soportar el algo scrypt
+## Para tarjetas GPU Nvidia
+Usar el siguiente minero en Windows:
 
-2. Soportar GetBlockTemplate o GBT
+https://github.com/tpruvot/ccminer
 
-3. Direcciones segwit bech32
+Se puede compilar para Linux también.
+
+
+## Cómo conectar al pool
+### GPU
+Se usa de la siguiente manera:
+
+ccminer -a scrypt -o stratum+tcp://blockexplorer.walocoin.xyz:3053 -u tu-direccion-de-billetera - p x
+
+###CPU
+cpuminer -a scrypt -o stratum+tcp://blockexplorer.walocoin.xyz:3052 -u tu-direccion-de-billetera - p x
+
 
  
