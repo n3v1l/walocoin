@@ -52,10 +52,16 @@ Se puede compilar para Linux también.
 ### GPU
 Se usa de la siguiente manera:
 
+```cmd
 ccminer -a scrypt -o stratum+tcp://blockexplorer.walocoin.xyz:3053 -u tu-direccion-de-billetera - p x
+```
 
-###CPU
+### CPU
+
+Con elmismo minero usado para minar con CPU solo, se puede usar también con el pool:
+
+```cmd
 cpuminer -a scrypt -o stratum+tcp://blockexplorer.walocoin.xyz:3052 -u tu-direccion-de-billetera - p x
+```
 
-
- 
+Nota: Puedes usar tu dirección legacy como la bech32 para minar en el pool.
