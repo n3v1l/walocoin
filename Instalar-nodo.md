@@ -29,13 +29,13 @@ git clone https://github.com/n3v1l/walocoin.git
 
 #### Opción Código Fuente en Release
 ```bash
-wget https://github.com/n3v1l/walocoin/releases/download/0.18.2/walocoin-0.18.2.tar.gz
-tar xvf walocoin-0.18.2.tar.gz
+wget https://github.com/n3v1l/walocoin/releases/download/0.18.4/walocoin-0.18.4.tar.gz
+tar xvf walocoin-0.18.4.tar.gz
 ```
    
 4. Compilado
 ```bash
-cd walocoin-0.18.2
+cd walocoin-0.18.4
 ./autogen.sh
 ./configure --disable-tests --disable-bench --without-gui
 make -j$n  (donde $n es la cantidad de hilos con los que vas a compilar)
@@ -56,7 +56,7 @@ cd build_unix/
 make
 sudo make install
 cd ..
-cd walocoin-0.18.2
+cd walocoin-0.18.4
 ./configure --disable-test --disable-bench --without-gui
 make
 sudo make install
