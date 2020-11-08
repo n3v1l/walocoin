@@ -2,7 +2,7 @@
 
 ## Windows 
 
-1. Descargar el [Instalador de Walocoin](https://github.com/n3v1l/walocoin/releases/download/0.18.4/walocoin-0.18.4-win64-setup.exe)
+1. Descargar el [Instalador de Walocoin](https://github.com/n3v1l/walocoin/releases/download/v0.18.4/walocoin-0.18.4-win64-setup.exe)
 
 2. Ejecutarlo para instalarlo, dejar todo por defecto.
 
